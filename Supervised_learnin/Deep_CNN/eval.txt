@@ -1,0 +1,31 @@
+LeNet5(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+  (conv2): Conv2d(6, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=400, out_features=120, bias=True)
+  (fc2): Linear(in_features=120, out_features=84, bias=True)
+  (fc3): Linear(in_features=84, out_features=10, bias=True)
+)
+epoch 1
+**********
+[1/5] Loss: 0.585904, Acc:0.008308
+[1/5] Loss: 0.391034, Acc:0.008860
+epoch 2
+**********
+[2/5] Loss: 0.127013, Acc:0.009621
+[2/5] Loss: 0.115508, Acc:0.009654
+epoch 3
+**********
+[3/5] Loss: 0.082592, Acc:0.009743
+[3/5] Loss: 0.077315, Acc:0.009763
+epoch 4
+**********
+[4/5] Loss: 0.059142, Acc:0.009812
+[4/5] Loss: 0.060123, Acc:0.009815
+epoch 5
+**********
+[5/5] Loss: 0.050013, Acc:0.009845
+[5/5] Loss: 0.047441, Acc:0.009852
+Accuracy of the model on the 10000 test images: 98 %
+Done!
+
+Process finished with exit code 0

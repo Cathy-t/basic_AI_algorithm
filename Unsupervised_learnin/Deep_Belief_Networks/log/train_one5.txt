@@ -1,0 +1,587 @@
+5421
+-----------------------10------------
+--------------------
+Training the 1 st rbm layer
+RBM fitting: 542it [00:08, 62.36it/s]
+Epoch:1 ,avg_cost = 0.7252598404884338 ,std_cost = 0.14683976769447327 ,avg_grad = 15529.09765625 ,std_grad = 4815.60546875
+RBM fitting: 542it [00:07, 68.29it/s]
+Epoch:2 ,avg_cost = 0.6079332828521729 ,std_cost = 0.057271894067525864 ,avg_grad = 12835.8232421875 ,std_grad = 640.7392578125
+RBM fitting: 542it [00:07, 72.65it/s]
+Epoch:3 ,avg_cost = 0.5759050846099854 ,std_cost = 0.05495108291506767 ,avg_grad = 12450.7509765625 ,std_grad = 618.767578125
+RBM fitting: 542it [00:07, 71.17it/s]
+Epoch:4 ,avg_cost = 0.5636847019195557 ,std_cost = 0.05268045514822006 ,avg_grad = 12299.0244140625 ,std_grad = 608.2048950195312
+RBM fitting: 542it [00:07, 73.81it/s]
+Epoch:5 ,avg_cost = 0.5548974275588989 ,std_cost = 0.05090266466140747 ,avg_grad = 12167.20703125 ,std_grad = 587.6473388671875
+RBM fitting: 542it [00:07, 71.28it/s]
+Epoch:6 ,avg_cost = 0.5489882826805115 ,std_cost = 0.05037779361009598 ,avg_grad = 12101.66015625 ,std_grad = 588.5404052734375
+RBM fitting: 542it [00:08, 65.55it/s]
+Epoch:7 ,avg_cost = 0.5446648001670837 ,std_cost = 0.05078393220901489 ,avg_grad = 12043.74609375 ,std_grad = 580.620361328125
+RBM fitting: 542it [00:07, 73.87it/s]
+Epoch:8 ,avg_cost = 0.5395578742027283 ,std_cost = 0.05098472908139229 ,avg_grad = 11987.5419921875 ,std_grad = 585.368896484375
+RBM fitting: 542it [00:07, 72.71it/s]
+Epoch:9 ,avg_cost = 0.537316083908081 ,std_cost = 0.04930421710014343 ,avg_grad = 11943.0888671875 ,std_grad = 564.758056640625
+RBM fitting: 542it [00:07, 69.51it/s]
+Epoch:10 ,avg_cost = 0.5338150262832642 ,std_cost = 0.049774814397096634 ,avg_grad = 11913.0087890625 ,std_grad = 588.2596435546875
+--------------------
+Training the 2 st rbm layer
+RBM fitting: 542it [00:03, 162.50it/s]
+Epoch:1 ,avg_cost = 1.9233767986297607 ,std_cost = 0.1754196286201477 ,avg_grad = 13073.03515625 ,std_grad = 1363.8780517578125
+RBM fitting: 542it [00:03, 141.19it/s]
+Epoch:2 ,avg_cost = 1.7389638423919678 ,std_cost = 0.11555572599172592 ,avg_grad = 12038.333984375 ,std_grad = 345.4302673339844
+RBM fitting: 542it [00:03, 166.70it/s]
+Epoch:3 ,avg_cost = 1.6889774799346924 ,std_cost = 0.11497525870800018 ,avg_grad = 12063.5986328125 ,std_grad = 315.862060546875
+RBM fitting: 542it [00:03, 141.27it/s]
+Epoch:4 ,avg_cost = 1.6709928512573242 ,std_cost = 0.11440561711788177 ,avg_grad = 12038.349609375 ,std_grad = 322.5486145019531
+RBM fitting: 542it [00:03, 142.27it/s]
+Epoch:5 ,avg_cost = 1.662193775177002 ,std_cost = 0.11499276757240295 ,avg_grad = 12082.150390625 ,std_grad = 326.2696533203125
+RBM fitting: 542it [00:03, 162.99it/s]
+Epoch:6 ,avg_cost = 1.653672218322754 ,std_cost = 0.11367429792881012 ,avg_grad = 12092.853515625 ,std_grad = 335.37933349609375
+RBM fitting: 542it [00:03, 140.31it/s]
+Epoch:7 ,avg_cost = 1.64762544631958 ,std_cost = 0.11565369367599487 ,avg_grad = 12103.947265625 ,std_grad = 318.05035400390625
+RBM fitting: 542it [00:03, 168.57it/s]
+Epoch:8 ,avg_cost = 1.6438322067260742 ,std_cost = 0.11396075785160065 ,avg_grad = 12125.083984375 ,std_grad = 322.8505554199219
+RBM fitting: 542it [00:03, 140.61it/s]
+Epoch:9 ,avg_cost = 1.641203761100769 ,std_cost = 0.11402665078639984 ,avg_grad = 12123.640625 ,std_grad = 333.4940490722656
+RBM fitting: 542it [00:03, 153.56it/s]
+Epoch:10 ,avg_cost = 1.6412060260772705 ,std_cost = 0.11415403336286545 ,avg_grad = 12131.650390625 ,std_grad = 332.06219482421875
+D:\learning\Artificial_Intelligence\project7\venv\lib\site-packages\torchvision\datasets\mnist.py:45: UserWarning: train_labels has been renamed targets
+  warnings.warn("train_labels has been renamed targets")
+The original number: 1
+The reconstructed image
+-----------------------15------------
+--------------------
+Training the 1 st rbm layer
+RBM fitting: 542it [00:07, 70.18it/s]
+Epoch:1 ,avg_cost = 0.5337464213371277 ,std_cost = 0.04975711554288864 ,avg_grad = 11754.603515625 ,std_grad = 605.8622436523438
+RBM fitting: 542it [00:07, 70.73it/s]
+Epoch:2 ,avg_cost = 0.514182448387146 ,std_cost = 0.04738665744662285 ,avg_grad = 11401.001953125 ,std_grad = 558.7758178710938
+RBM fitting: 542it [00:07, 69.21it/s]
+Epoch:3 ,avg_cost = 0.5053431987762451 ,std_cost = 0.04808655381202698 ,avg_grad = 11292.744140625 ,std_grad = 557.6507568359375
+RBM fitting: 542it [00:07, 70.75it/s]
+Epoch:4 ,avg_cost = 0.499231219291687 ,std_cost = 0.04738031327724457 ,avg_grad = 11210.53515625 ,std_grad = 557.90625
+RBM fitting: 542it [00:07, 72.40it/s]
+Epoch:5 ,avg_cost = 0.4936867356300354 ,std_cost = 0.047695789486169815 ,avg_grad = 11146.0341796875 ,std_grad = 554.6100463867188
+RBM fitting: 542it [00:07, 71.06it/s]
+Epoch:6 ,avg_cost = 0.49194779992103577 ,std_cost = 0.04665297269821167 ,avg_grad = 11138.8974609375 ,std_grad = 546.5380859375
+RBM fitting: 542it [00:08, 63.77it/s]
+Epoch:7 ,avg_cost = 0.4908202290534973 ,std_cost = 0.046281781047582626 ,avg_grad = 11128.890625 ,std_grad = 549.781494140625
+RBM fitting: 542it [00:08, 66.90it/s]
+Epoch:8 ,avg_cost = 0.48761487007141113 ,std_cost = 0.044702839106321335 ,avg_grad = 11090.0087890625 ,std_grad = 534.9692993164062
+RBM fitting: 542it [00:07, 68.94it/s]
+Epoch:9 ,avg_cost = 0.4862862825393677 ,std_cost = 0.046580199152231216 ,avg_grad = 11076.9755859375 ,std_grad = 534.1848754882812
+RBM fitting: 542it [00:08, 67.62it/s]
+Epoch:10 ,avg_cost = 0.48627594113349915 ,std_cost = 0.047003768384456635 ,avg_grad = 11071.6298828125 ,std_grad = 562.0372314453125
+RBM fitting: 542it [00:07, 69.23it/s]
+Epoch:11 ,avg_cost = 0.4848062992095947 ,std_cost = 0.04563794657588005 ,avg_grad = 11068.041015625 ,std_grad = 547.917724609375
+RBM fitting: 542it [00:07, 70.20it/s]
+Epoch:12 ,avg_cost = 0.4846585690975189 ,std_cost = 0.04648028686642647 ,avg_grad = 11055.095703125 ,std_grad = 550.5570068359375
+RBM fitting: 542it [00:07, 71.93it/s]
+Epoch:13 ,avg_cost = 0.4820781350135803 ,std_cost = 0.04477444663643837 ,avg_grad = 11027.8798828125 ,std_grad = 554.7098388671875
+RBM fitting: 542it [00:07, 69.21it/s]
+Epoch:14 ,avg_cost = 0.4813520014286041 ,std_cost = 0.04523269087076187 ,avg_grad = 11012.2529296875 ,std_grad = 542.7989501953125
+RBM fitting: 542it [00:07, 70.99it/s]
+Epoch:15 ,avg_cost = 0.4804191589355469 ,std_cost = 0.04561026766896248 ,avg_grad = 11017.42578125 ,std_grad = 570.77880859375
+--------------------
+Training the 2 st rbm layer
+RBM fitting: 542it [00:03, 167.53it/s]
+Epoch:1 ,avg_cost = 1.6059131622314453 ,std_cost = 0.11807457357645035 ,avg_grad = 11868.1396484375 ,std_grad = 404.337890625
+RBM fitting: 542it [00:03, 145.13it/s]
+Epoch:2 ,avg_cost = 1.5673478841781616 ,std_cost = 0.11662392318248749 ,avg_grad = 11663.6787109375 ,std_grad = 333.8959045410156
+RBM fitting: 542it [00:03, 139.16it/s]
+Epoch:3 ,avg_cost = 1.5535614490509033 ,std_cost = 0.11496933549642563 ,avg_grad = 11695.1015625 ,std_grad = 326.43414306640625
+RBM fitting: 542it [00:03, 164.08it/s]
+Epoch:4 ,avg_cost = 1.5432164669036865 ,std_cost = 0.11462034285068512 ,avg_grad = 11775.12890625 ,std_grad = 341.0670471191406
+RBM fitting: 542it [00:03, 137.68it/s]
+Epoch:5 ,avg_cost = 1.5372604131698608 ,std_cost = 0.11361057311296463 ,avg_grad = 11813.8828125 ,std_grad = 315.443603515625
+RBM fitting: 542it [00:03, 170.64it/s]
+Epoch:6 ,avg_cost = 1.532761812210083 ,std_cost = 0.1165529415011406 ,avg_grad = 11824.0126953125 ,std_grad = 308.2772521972656
+RBM fitting: 542it [00:04, 115.63it/s]
+Epoch:7 ,avg_cost = 1.5287678241729736 ,std_cost = 0.11517960578203201 ,avg_grad = 11838.65234375 ,std_grad = 312.95062255859375
+RBM fitting: 542it [00:05, 106.76it/s]
+Epoch:8 ,avg_cost = 1.5279905796051025 ,std_cost = 0.11173908412456512 ,avg_grad = 11882.0 ,std_grad = 314.4177551269531
+RBM fitting: 542it [00:04, 126.31it/s]
+Epoch:9 ,avg_cost = 1.524530053138733 ,std_cost = 0.1145048588514328 ,avg_grad = 11898.1962890625 ,std_grad = 325.2324523925781
+RBM fitting: 542it [00:03, 146.86it/s]
+Epoch:10 ,avg_cost = 1.525634765625 ,std_cost = 0.11314577609300613 ,avg_grad = 11898.125 ,std_grad = 323.84014892578125
+RBM fitting: 542it [00:04, 116.48it/s]
+Epoch:11 ,avg_cost = 1.5231881141662598 ,std_cost = 0.11497721076011658 ,avg_grad = 11901.49609375 ,std_grad = 321.1514892578125
+RBM fitting: 542it [00:03, 150.49it/s]
+Epoch:12 ,avg_cost = 1.521460771560669 ,std_cost = 0.11334968358278275 ,avg_grad = 11912.515625 ,std_grad = 318.12762451171875
+RBM fitting: 542it [00:03, 156.67it/s]
+Epoch:13 ,avg_cost = 1.5206791162490845 ,std_cost = 0.11274000257253647 ,avg_grad = 11908.9326171875 ,std_grad = 317.8191223144531
+RBM fitting: 542it [00:03, 142.72it/s]
+Epoch:14 ,avg_cost = 1.5194274187088013 ,std_cost = 0.11326437443494797 ,avg_grad = 11928.525390625 ,std_grad = 314.93182373046875
+RBM fitting: 542it [00:03, 170.91it/s]
+Epoch:15 ,avg_cost = 1.517781376838684 ,std_cost = 0.11283931881189346 ,avg_grad = 11923.6767578125 ,std_grad = 317.9440002441406
+The original number: 1
+The reconstructed image
+-----------------------20------------
+--------------------
+Training the 1 st rbm layer
+RBM fitting: 542it [00:08, 65.91it/s]
+Epoch:1 ,avg_cost = 0.4898236393928528 ,std_cost = 0.045504141598939896 ,avg_grad = 11035.55859375 ,std_grad = 538.35302734375
+RBM fitting: 542it [00:07, 70.86it/s]
+Epoch:2 ,avg_cost = 0.47744834423065186 ,std_cost = 0.04389883577823639 ,avg_grad = 10845.0126953125 ,std_grad = 527.663818359375
+RBM fitting: 542it [00:07, 71.75it/s]
+Epoch:3 ,avg_cost = 0.470117449760437 ,std_cost = 0.04414929077029228 ,avg_grad = 10773.5087890625 ,std_grad = 542.370361328125
+RBM fitting: 542it [00:07, 70.74it/s]
+Epoch:4 ,avg_cost = 0.4654645025730133 ,std_cost = 0.04268024489283562 ,avg_grad = 10743.5419921875 ,std_grad = 518.07421875
+RBM fitting: 542it [00:07, 69.18it/s]
+Epoch:5 ,avg_cost = 0.46513113379478455 ,std_cost = 0.04244892671704292 ,avg_grad = 10756.2001953125 ,std_grad = 519.5421752929688
+RBM fitting: 542it [00:07, 73.36it/s]
+Epoch:6 ,avg_cost = 0.4631716310977936 ,std_cost = 0.042848456650972366 ,avg_grad = 10755.0849609375 ,std_grad = 519.908203125
+RBM fitting: 542it [00:07, 71.37it/s]
+Epoch:7 ,avg_cost = 0.46028590202331543 ,std_cost = 0.04185047000646591 ,avg_grad = 10727.046875 ,std_grad = 524.4515991210938
+RBM fitting: 542it [00:07, 73.58it/s]
+Epoch:8 ,avg_cost = 0.45982787013053894 ,std_cost = 0.04237738996744156 ,avg_grad = 10745.41796875 ,std_grad = 532.7377319335938
+RBM fitting: 542it [00:07, 69.62it/s]
+Epoch:9 ,avg_cost = 0.45786118507385254 ,std_cost = 0.0418180413544178 ,avg_grad = 10707.060546875 ,std_grad = 527.7763671875
+RBM fitting: 542it [00:07, 70.24it/s]
+Epoch:10 ,avg_cost = 0.4557757079601288 ,std_cost = 0.04164307937026024 ,avg_grad = 10695.1181640625 ,std_grad = 521.9737548828125
+RBM fitting: 542it [00:07, 71.95it/s]
+Epoch:11 ,avg_cost = 0.4559851288795471 ,std_cost = 0.04240022599697113 ,avg_grad = 10709.408203125 ,std_grad = 525.410400390625
+RBM fitting: 542it [00:07, 72.46it/s]
+Epoch:12 ,avg_cost = 0.45546671748161316 ,std_cost = 0.042888227850198746 ,avg_grad = 10692.8994140625 ,std_grad = 524.9938354492188
+RBM fitting: 542it [00:08, 67.36it/s]
+Epoch:13 ,avg_cost = 0.45366179943084717 ,std_cost = 0.04233147203922272 ,avg_grad = 10676.1552734375 ,std_grad = 533.1239013671875
+RBM fitting: 542it [00:07, 71.63it/s]
+Epoch:14 ,avg_cost = 0.4539404809474945 ,std_cost = 0.04234837740659714 ,avg_grad = 10687.8525390625 ,std_grad = 535.9177856445312
+RBM fitting: 542it [00:07, 72.17it/s]
+Epoch:15 ,avg_cost = 0.45325174927711487 ,std_cost = 0.04176582768559456 ,avg_grad = 10672.017578125 ,std_grad = 511.0245666503906
+RBM fitting: 542it [00:07, 71.89it/s]
+Epoch:16 ,avg_cost = 0.45203882455825806 ,std_cost = 0.043198470026254654 ,avg_grad = 10690.349609375 ,std_grad = 547.0247802734375
+RBM fitting: 542it [00:08, 66.24it/s]
+Epoch:17 ,avg_cost = 0.4522666037082672 ,std_cost = 0.04249601811170578 ,avg_grad = 10678.37109375 ,std_grad = 511.9908752441406
+RBM fitting: 542it [00:07, 69.50it/s]
+Epoch:18 ,avg_cost = 0.45147910714149475 ,std_cost = 0.04194468632340431 ,avg_grad = 10679.3310546875 ,std_grad = 534.412109375
+RBM fitting: 542it [00:07, 71.16it/s]
+Epoch:19 ,avg_cost = 0.4519120752811432 ,std_cost = 0.0424719899892807 ,avg_grad = 10688.896484375 ,std_grad = 524.7173461914062
+RBM fitting: 542it [00:07, 71.40it/s]
+Epoch:20 ,avg_cost = 0.4502309262752533 ,std_cost = 0.04149625450372696 ,avg_grad = 10664.0576171875 ,std_grad = 523.5442504882812
+--------------------
+Training the 2 st rbm layer
+RBM fitting: 542it [00:03, 141.52it/s]
+Epoch:1 ,avg_cost = 1.547221064567566 ,std_cost = 0.11583595722913742 ,avg_grad = 12019.50390625 ,std_grad = 355.6500549316406
+RBM fitting: 542it [00:03, 159.11it/s]
+Epoch:2 ,avg_cost = 1.5173298120498657 ,std_cost = 0.11656003445386887 ,avg_grad = 11839.8388671875 ,std_grad = 331.19818115234375
+RBM fitting: 542it [00:03, 152.57it/s]
+Epoch:3 ,avg_cost = 1.5067977905273438 ,std_cost = 0.1151672974228859 ,avg_grad = 11865.70703125 ,std_grad = 348.1856689453125
+RBM fitting: 542it [00:03, 142.16it/s]
+Epoch:4 ,avg_cost = 1.4986238479614258 ,std_cost = 0.11537221819162369 ,avg_grad = 11895.2158203125 ,std_grad = 328.332275390625
+RBM fitting: 542it [00:03, 172.00it/s]
+Epoch:5 ,avg_cost = 1.4959460496902466 ,std_cost = 0.11390168219804764 ,avg_grad = 11926.3115234375 ,std_grad = 323.707763671875
+RBM fitting: 542it [00:03, 143.47it/s]
+Epoch:6 ,avg_cost = 1.4930713176727295 ,std_cost = 0.11564365029335022 ,avg_grad = 11921.2841796875 ,std_grad = 331.7714538574219
+RBM fitting: 542it [00:03, 172.21it/s]
+Epoch:7 ,avg_cost = 1.4906069040298462 ,std_cost = 0.11434971541166306 ,avg_grad = 11932.81640625 ,std_grad = 334.58154296875
+RBM fitting: 542it [00:04, 130.38it/s]
+Epoch:8 ,avg_cost = 1.4885659217834473 ,std_cost = 0.1154380738735199 ,avg_grad = 11942.4462890625 ,std_grad = 340.2623291015625
+RBM fitting: 542it [00:03, 145.75it/s]
+Epoch:9 ,avg_cost = 1.4880133867263794 ,std_cost = 0.11684408038854599 ,avg_grad = 11967.79296875 ,std_grad = 353.70068359375
+RBM fitting: 542it [00:03, 140.94it/s]
+Epoch:10 ,avg_cost = 1.48605215549469 ,std_cost = 0.11507674306631088 ,avg_grad = 11956.23828125 ,std_grad = 323.92236328125
+RBM fitting: 542it [00:03, 136.77it/s]
+Epoch:11 ,avg_cost = 1.4854222536087036 ,std_cost = 0.1130031868815422 ,avg_grad = 11996.169921875 ,std_grad = 338.8020935058594
+RBM fitting: 542it [00:04, 109.37it/s]
+Epoch:12 ,avg_cost = 1.4846868515014648 ,std_cost = 0.11294494569301605 ,avg_grad = 11965.73046875 ,std_grad = 334.3062438964844
+RBM fitting: 542it [00:05, 104.10it/s]
+Epoch:13 ,avg_cost = 1.4822214841842651 ,std_cost = 0.1148722693324089 ,avg_grad = 11986.7109375 ,std_grad = 326.42498779296875
+RBM fitting: 542it [00:04, 108.52it/s]
+Epoch:14 ,avg_cost = 1.481192708015442 ,std_cost = 0.11468180269002914 ,avg_grad = 11971.2001953125 ,std_grad = 319.0023193359375
+RBM fitting: 542it [00:05, 100.69it/s]
+Epoch:15 ,avg_cost = 1.4813947677612305 ,std_cost = 0.11418788135051727 ,avg_grad = 11983.3583984375 ,std_grad = 333.0243225097656
+RBM fitting: 542it [00:04, 118.02it/s]
+Epoch:16 ,avg_cost = 1.4844861030578613 ,std_cost = 0.11565028131008148 ,avg_grad = 12002.818359375 ,std_grad = 341.53631591796875
+RBM fitting: 542it [00:03, 146.86it/s]
+Epoch:17 ,avg_cost = 1.4818905591964722 ,std_cost = 0.1145377978682518 ,avg_grad = 11999.7001953125 ,std_grad = 340.978271484375
+RBM fitting: 542it [00:05, 105.11it/s]
+Epoch:18 ,avg_cost = 1.4805985689163208 ,std_cost = 0.11315282434225082 ,avg_grad = 11991.001953125 ,std_grad = 330.6492004394531
+RBM fitting: 542it [00:05, 92.62it/s]
+Epoch:19 ,avg_cost = 1.4793421030044556 ,std_cost = 0.11396317183971405 ,avg_grad = 11993.328125 ,std_grad = 330.54803466796875
+RBM fitting: 542it [00:04, 111.67it/s]
+Epoch:20 ,avg_cost = 1.4810945987701416 ,std_cost = 0.11389816552400589 ,avg_grad = 11990.306640625 ,std_grad = 335.04290771484375
+The original number: 1
+The reconstructed image
+-----------------------25------------
+--------------------
+Training the 1 st rbm layer
+RBM fitting: 542it [00:09, 54.32it/s]
+Epoch:1 ,avg_cost = 0.46244528889656067 ,std_cost = 0.04277491569519043 ,avg_grad = 10732.091796875 ,std_grad = 532.5618896484375
+RBM fitting: 542it [00:09, 56.17it/s]
+Epoch:2 ,avg_cost = 0.4516248404979706 ,std_cost = 0.04022926092147827 ,avg_grad = 10578.9248046875 ,std_grad = 507.8622741699219
+RBM fitting: 542it [00:10, 50.51it/s]
+Epoch:3 ,avg_cost = 0.447409451007843 ,std_cost = 0.04119658097624779 ,avg_grad = 10555.2890625 ,std_grad = 513.2642822265625
+RBM fitting: 542it [00:08, 64.75it/s]
+Epoch:4 ,avg_cost = 0.4435766339302063 ,std_cost = 0.04056883230805397 ,avg_grad = 10525.8740234375 ,std_grad = 507.4648742675781
+RBM fitting: 542it [00:08, 66.35it/s]
+Epoch:5 ,avg_cost = 0.44080328941345215 ,std_cost = 0.03895948454737663 ,avg_grad = 10510.861328125 ,std_grad = 498.3887634277344
+RBM fitting: 542it [00:08, 67.53it/s]
+Epoch:6 ,avg_cost = 0.4394738972187042 ,std_cost = 0.039223428815603256 ,avg_grad = 10508.7822265625 ,std_grad = 519.1636962890625
+RBM fitting: 542it [00:07, 68.00it/s]
+Epoch:7 ,avg_cost = 0.4386966824531555 ,std_cost = 0.03960094973444939 ,avg_grad = 10502.0 ,std_grad = 503.0674133300781
+RBM fitting: 542it [00:08, 67.16it/s]
+Epoch:8 ,avg_cost = 0.43815332651138306 ,std_cost = 0.040360331535339355 ,avg_grad = 10514.9013671875 ,std_grad = 530.6546630859375
+RBM fitting: 542it [00:08, 66.55it/s]
+Epoch:9 ,avg_cost = 0.436550498008728 ,std_cost = 0.03878598287701607 ,avg_grad = 10498.7177734375 ,std_grad = 525.2180786132812
+RBM fitting: 542it [00:07, 70.75it/s]
+Epoch:10 ,avg_cost = 0.4369402527809143 ,std_cost = 0.039766158908605576 ,avg_grad = 10522.162109375 ,std_grad = 517.1591796875
+RBM fitting: 542it [00:08, 63.36it/s]
+Epoch:11 ,avg_cost = 0.43433353304862976 ,std_cost = 0.03879249840974808 ,avg_grad = 10518.109375 ,std_grad = 507.395263671875
+RBM fitting: 542it [00:07, 70.48it/s]
+Epoch:12 ,avg_cost = 0.435024619102478 ,std_cost = 0.03953344002366066 ,avg_grad = 10502.59375 ,std_grad = 528.7388916015625
+RBM fitting: 542it [00:07, 70.87it/s]
+Epoch:13 ,avg_cost = 0.43554484844207764 ,std_cost = 0.03893843665719032 ,avg_grad = 10530.6708984375 ,std_grad = 519.9608154296875
+RBM fitting: 542it [00:08, 62.99it/s]
+Epoch:14 ,avg_cost = 0.43238958716392517 ,std_cost = 0.03983423113822937 ,avg_grad = 10499.1708984375 ,std_grad = 527.2323608398438
+RBM fitting: 542it [00:07, 68.14it/s]
+Epoch:15 ,avg_cost = 0.43423619866371155 ,std_cost = 0.03946962207555771 ,avg_grad = 10509.2734375 ,std_grad = 510.62982177734375
+RBM fitting: 542it [00:07, 71.51it/s]
+Epoch:16 ,avg_cost = 0.4344007670879364 ,std_cost = 0.03999976068735123 ,avg_grad = 10519.1044921875 ,std_grad = 515.5778198242188
+RBM fitting: 542it [00:07, 68.87it/s]
+Epoch:17 ,avg_cost = 0.433330237865448 ,std_cost = 0.038864705711603165 ,avg_grad = 10516.50390625 ,std_grad = 528.3177490234375
+RBM fitting: 542it [00:08, 64.99it/s]
+Epoch:18 ,avg_cost = 0.43266552686691284 ,std_cost = 0.038818713277578354 ,avg_grad = 10515.689453125 ,std_grad = 522.0388793945312
+RBM fitting: 542it [00:07, 71.54it/s]
+Epoch:19 ,avg_cost = 0.43296000361442566 ,std_cost = 0.0385325588285923 ,avg_grad = 10526.3203125 ,std_grad = 514.0263061523438
+RBM fitting: 542it [00:07, 70.72it/s]
+Epoch:20 ,avg_cost = 0.4314245283603668 ,std_cost = 0.03886294364929199 ,avg_grad = 10511.3193359375 ,std_grad = 529.1068115234375
+RBM fitting: 542it [00:08, 66.90it/s]
+Epoch:21 ,avg_cost = 0.43216291069984436 ,std_cost = 0.037515636533498764 ,avg_grad = 10507.7939453125 ,std_grad = 536.8822021484375
+RBM fitting: 542it [00:07, 70.09it/s]
+Epoch:22 ,avg_cost = 0.4315308928489685 ,std_cost = 0.03907729685306549 ,avg_grad = 10510.103515625 ,std_grad = 520.0443725585938
+RBM fitting: 542it [00:07, 70.22it/s]
+Epoch:23 ,avg_cost = 0.4306105077266693 ,std_cost = 0.038049761205911636 ,avg_grad = 10490.7373046875 ,std_grad = 504.3521423339844
+RBM fitting: 542it [00:07, 68.86it/s]
+Epoch:24 ,avg_cost = 0.4313092529773712 ,std_cost = 0.03784047067165375 ,avg_grad = 10519.4775390625 ,std_grad = 507.914794921875
+RBM fitting: 542it [00:08, 66.64it/s]
+Epoch:25 ,avg_cost = 0.43033814430236816 ,std_cost = 0.03867972269654274 ,avg_grad = 10507.3193359375 ,std_grad = 523.5201416015625
+--------------------
+Training the 2 st rbm layer
+RBM fitting: 542it [00:03, 159.82it/s]
+Epoch:1 ,avg_cost = 1.5326988697052002 ,std_cost = 0.1177244484424591 ,avg_grad = 12165.62109375 ,std_grad = 356.6156311035156
+RBM fitting: 542it [00:03, 140.94it/s]
+Epoch:2 ,avg_cost = 1.507798433303833 ,std_cost = 0.1147141084074974 ,avg_grad = 12125.77734375 ,std_grad = 340.88494873046875
+RBM fitting: 542it [00:03, 156.99it/s]
+Epoch:3 ,avg_cost = 1.4980601072311401 ,std_cost = 0.11501055955886841 ,avg_grad = 12129.3857421875 ,std_grad = 341.30731201171875
+RBM fitting: 542it [00:03, 148.92it/s]
+Epoch:4 ,avg_cost = 1.4926615953445435 ,std_cost = 0.11450271308422089 ,avg_grad = 12117.5498046875 ,std_grad = 331.79034423828125
+RBM fitting: 542it [00:03, 154.61it/s]
+Epoch:5 ,avg_cost = 1.4903864860534668 ,std_cost = 0.11495224386453629 ,avg_grad = 12148.6865234375 ,std_grad = 332.7123718261719
+RBM fitting: 542it [00:03, 163.63it/s]
+Epoch:6 ,avg_cost = 1.4853637218475342 ,std_cost = 0.1141723170876503 ,avg_grad = 12170.4638671875 ,std_grad = 319.2747497558594
+RBM fitting: 542it [00:03, 155.37it/s]
+Epoch:7 ,avg_cost = 1.4857293367385864 ,std_cost = 0.11472237855195999 ,avg_grad = 12168.69140625 ,std_grad = 337.3683776855469
+RBM fitting: 542it [00:03, 167.11it/s]
+Epoch:8 ,avg_cost = 1.483626365661621 ,std_cost = 0.11424614489078522 ,avg_grad = 12151.724609375 ,std_grad = 313.8985595703125
+RBM fitting: 542it [00:03, 147.82it/s]
+Epoch:9 ,avg_cost = 1.4838420152664185 ,std_cost = 0.1142888069152832 ,avg_grad = 12171.482421875 ,std_grad = 334.2061767578125
+RBM fitting: 542it [00:03, 169.84it/s]
+Epoch:10 ,avg_cost = 1.4827344417572021 ,std_cost = 0.11483825743198395 ,avg_grad = 12190.5068359375 ,std_grad = 325.9898376464844
+RBM fitting: 542it [00:03, 152.96it/s]
+Epoch:11 ,avg_cost = 1.4824036359786987 ,std_cost = 0.11427465081214905 ,avg_grad = 12170.0888671875 ,std_grad = 323.1878356933594
+RBM fitting: 542it [00:03, 156.26it/s]
+Epoch:12 ,avg_cost = 1.480241060256958 ,std_cost = 0.11335837841033936 ,avg_grad = 12185.552734375 ,std_grad = 323.94268798828125
+RBM fitting: 542it [00:03, 164.18it/s]
+Epoch:13 ,avg_cost = 1.4787778854370117 ,std_cost = 0.11388775706291199 ,avg_grad = 12187.6865234375 ,std_grad = 318.07391357421875
+RBM fitting: 542it [00:03, 148.27it/s]
+Epoch:14 ,avg_cost = 1.4781851768493652 ,std_cost = 0.11560089886188507 ,avg_grad = 12195.875 ,std_grad = 324.0909423828125
+RBM fitting: 542it [00:03, 175.91it/s]
+Epoch:15 ,avg_cost = 1.4768505096435547 ,std_cost = 0.11492655426263809 ,avg_grad = 12203.375 ,std_grad = 323.5784912109375
+RBM fitting: 542it [00:03, 141.75it/s]
+Epoch:16 ,avg_cost = 1.4755045175552368 ,std_cost = 0.11274772137403488 ,avg_grad = 12198.876953125 ,std_grad = 338.41375732421875
+RBM fitting: 542it [00:03, 175.51it/s]
+Epoch:17 ,avg_cost = 1.47596275806427 ,std_cost = 0.11399062722921371 ,avg_grad = 12198.9912109375 ,std_grad = 329.99102783203125
+RBM fitting: 542it [00:03, 146.38it/s]
+Epoch:18 ,avg_cost = 1.4772605895996094 ,std_cost = 0.11402901262044907 ,avg_grad = 12201.42578125 ,std_grad = 333.9093017578125
+RBM fitting: 542it [00:03, 152.35it/s]
+Epoch:19 ,avg_cost = 1.4759745597839355 ,std_cost = 0.1142805889248848 ,avg_grad = 12187.2080078125 ,std_grad = 326.6836242675781
+RBM fitting: 542it [00:03, 171.02it/s]
+Epoch:20 ,avg_cost = 1.476750135421753 ,std_cost = 0.11540432274341583 ,avg_grad = 12218.740234375 ,std_grad = 343.93707275390625
+RBM fitting: 542it [00:03, 145.24it/s]
+Epoch:21 ,avg_cost = 1.4742425680160522 ,std_cost = 0.11429338157176971 ,avg_grad = 12206.2255859375 ,std_grad = 322.2755432128906
+RBM fitting: 542it [00:03, 176.48it/s]
+Epoch:22 ,avg_cost = 1.4750367403030396 ,std_cost = 0.1123809963464737 ,avg_grad = 12222.80859375 ,std_grad = 335.38421630859375
+RBM fitting: 542it [00:03, 142.94it/s]
+Epoch:23 ,avg_cost = 1.4761384725570679 ,std_cost = 0.11164198815822601 ,avg_grad = 12218.6767578125 ,std_grad = 325.9228515625
+RBM fitting: 542it [00:03, 175.34it/s]
+Epoch:24 ,avg_cost = 1.4749037027359009 ,std_cost = 0.11216839402914047 ,avg_grad = 12223.2060546875 ,std_grad = 324.0654602050781
+RBM fitting: 542it [00:03, 146.18it/s]
+Epoch:25 ,avg_cost = 1.4735186100006104 ,std_cost = 0.11371979117393494 ,avg_grad = 12209.2421875 ,std_grad = 342.4429931640625
+The original number: 1
+The reconstructed image
+-----------------------30------------
+--------------------
+Training the 1 st rbm layer
+RBM fitting: 542it [00:07, 70.76it/s]
+Epoch:1 ,avg_cost = 0.44340068101882935 ,std_cost = 0.04004053771495819 ,avg_grad = 10632.541015625 ,std_grad = 519.4114990234375
+RBM fitting: 542it [00:08, 67.59it/s]
+Epoch:2 ,avg_cost = 0.4340628385543823 ,std_cost = 0.03842692822217941 ,avg_grad = 10504.5537109375 ,std_grad = 517.5989990234375
+RBM fitting: 542it [00:07, 68.43it/s]
+Epoch:3 ,avg_cost = 0.42863354086875916 ,std_cost = 0.037999093532562256 ,avg_grad = 10449.08984375 ,std_grad = 510.0443420410156
+RBM fitting: 542it [00:07, 70.05it/s]
+Epoch:4 ,avg_cost = 0.42657750844955444 ,std_cost = 0.03793787956237793 ,avg_grad = 10435.0166015625 ,std_grad = 506.169921875
+RBM fitting: 542it [00:07, 70.12it/s]
+Epoch:5 ,avg_cost = 0.42417237162590027 ,std_cost = 0.038361500948667526 ,avg_grad = 10452.576171875 ,std_grad = 521.8317260742188
+RBM fitting: 542it [00:08, 62.68it/s]
+Epoch:6 ,avg_cost = 0.4234360158443451 ,std_cost = 0.03761214017868042 ,avg_grad = 10461.2685546875 ,std_grad = 511.1220703125
+RBM fitting: 542it [00:09, 60.19it/s]
+Epoch:7 ,avg_cost = 0.4222588539123535 ,std_cost = 0.03684284910559654 ,avg_grad = 10475.1025390625 ,std_grad = 510.4103088378906
+RBM fitting: 542it [00:08, 63.25it/s]
+Epoch:8 ,avg_cost = 0.4213367998600006 ,std_cost = 0.03698771074414253 ,avg_grad = 10450.611328125 ,std_grad = 525.5343017578125
+RBM fitting: 542it [00:07, 71.80it/s]
+Epoch:9 ,avg_cost = 0.4204188287258148 ,std_cost = 0.038062430918216705 ,avg_grad = 10463.4716796875 ,std_grad = 523.8321533203125
+RBM fitting: 542it [00:07, 71.25it/s]
+Epoch:10 ,avg_cost = 0.4194340705871582 ,std_cost = 0.036965928971767426 ,avg_grad = 10440.6640625 ,std_grad = 504.79400634765625
+RBM fitting: 542it [00:07, 68.92it/s]
+Epoch:11 ,avg_cost = 0.4205796718597412 ,std_cost = 0.036995742470026016 ,avg_grad = 10455.130859375 ,std_grad = 524.6998291015625
+RBM fitting: 542it [00:08, 61.80it/s]
+Epoch:12 ,avg_cost = 0.4186638593673706 ,std_cost = 0.03772932291030884 ,avg_grad = 10455.4072265625 ,std_grad = 525.8421020507812
+RBM fitting: 542it [00:07, 70.60it/s]
+Epoch:13 ,avg_cost = 0.41723868250846863 ,std_cost = 0.036269333213567734 ,avg_grad = 10453.42578125 ,std_grad = 515.2061157226562
+RBM fitting: 542it [00:07, 69.30it/s]
+Epoch:14 ,avg_cost = 0.417605996131897 ,std_cost = 0.036819666624069214 ,avg_grad = 10459.0673828125 ,std_grad = 507.80517578125
+RBM fitting: 542it [00:07, 71.21it/s]
+Epoch:15 ,avg_cost = 0.41773247718811035 ,std_cost = 0.038078829646110535 ,avg_grad = 10463.064453125 ,std_grad = 517.47998046875
+RBM fitting: 542it [00:07, 73.52it/s]
+Epoch:16 ,avg_cost = 0.41661322116851807 ,std_cost = 0.03730437532067299 ,avg_grad = 10445.7919921875 ,std_grad = 517.21630859375
+RBM fitting: 542it [00:07, 73.90it/s]
+Epoch:17 ,avg_cost = 0.41630735993385315 ,std_cost = 0.03741621971130371 ,avg_grad = 10463.58984375 ,std_grad = 522.0468139648438
+RBM fitting: 542it [00:07, 69.63it/s]
+Epoch:18 ,avg_cost = 0.41796058416366577 ,std_cost = 0.03667576238512993 ,avg_grad = 10466.4638671875 ,std_grad = 531.0469360351562
+RBM fitting: 542it [00:07, 68.73it/s]
+Epoch:19 ,avg_cost = 0.4161681830883026 ,std_cost = 0.03624904900789261 ,avg_grad = 10448.5224609375 ,std_grad = 516.3909912109375
+RBM fitting: 542it [00:07, 73.03it/s]
+Epoch:20 ,avg_cost = 0.4158933758735657 ,std_cost = 0.036147695034742355 ,avg_grad = 10439.0087890625 ,std_grad = 521.7833251953125
+RBM fitting: 542it [00:07, 72.50it/s]
+Epoch:21 ,avg_cost = 0.4153210520744324 ,std_cost = 0.03749772906303406 ,avg_grad = 10450.291015625 ,std_grad = 520.626953125
+RBM fitting: 542it [00:07, 68.66it/s]
+Epoch:22 ,avg_cost = 0.415290892124176 ,std_cost = 0.03618190065026283 ,avg_grad = 10450.736328125 ,std_grad = 515.5950927734375
+RBM fitting: 542it [00:07, 73.15it/s]
+Epoch:23 ,avg_cost = 0.4163365960121155 ,std_cost = 0.03751908987760544 ,avg_grad = 10440.71484375 ,std_grad = 531.927490234375
+RBM fitting: 542it [00:07, 73.67it/s]
+Epoch:24 ,avg_cost = 0.4156855046749115 ,std_cost = 0.037054192274808884 ,avg_grad = 10455.265625 ,std_grad = 510.42864990234375
+RBM fitting: 542it [00:07, 71.06it/s]
+Epoch:25 ,avg_cost = 0.4152657091617584 ,std_cost = 0.03696651756763458 ,avg_grad = 10456.759765625 ,std_grad = 529.767578125
+RBM fitting: 542it [00:07, 69.57it/s]
+Epoch:26 ,avg_cost = 0.4145286977291107 ,std_cost = 0.03715580701828003 ,avg_grad = 10458.1181640625 ,std_grad = 511.68463134765625
+RBM fitting: 542it [00:07, 71.25it/s]
+Epoch:27 ,avg_cost = 0.41475313901901245 ,std_cost = 0.03613494709134102 ,avg_grad = 10465.05078125 ,std_grad = 511.6383361816406
+RBM fitting: 542it [00:07, 70.88it/s]
+Epoch:28 ,avg_cost = 0.41428351402282715 ,std_cost = 0.036872170865535736 ,avg_grad = 10459.78515625 ,std_grad = 510.2298278808594
+RBM fitting: 542it [00:07, 69.96it/s]
+Epoch:29 ,avg_cost = 0.4142087697982788 ,std_cost = 0.03638723865151405 ,avg_grad = 10466.8154296875 ,std_grad = 521.0220947265625
+RBM fitting: 542it [00:07, 71.08it/s]
+Epoch:30 ,avg_cost = 0.4145033657550812 ,std_cost = 0.0362410731613636 ,avg_grad = 10463.8154296875 ,std_grad = 509.5528869628906
+--------------------
+Training the 2 st rbm layer
+RBM fitting: 542it [00:03, 160.05it/s]
+Epoch:1 ,avg_cost = 1.5455478429794312 ,std_cost = 0.11355563253164291 ,avg_grad = 12549.2373046875 ,std_grad = 352.2429504394531
+RBM fitting: 542it [00:03, 153.17it/s]
+Epoch:2 ,avg_cost = 1.5197018384933472 ,std_cost = 0.11115255951881409 ,avg_grad = 12398.76171875 ,std_grad = 335.9989929199219
+RBM fitting: 542it [00:03, 153.00it/s]
+Epoch:3 ,avg_cost = 1.5078365802764893 ,std_cost = 0.1106901541352272 ,avg_grad = 12415.9912109375 ,std_grad = 330.44281005859375
+RBM fitting: 542it [00:03, 165.03it/s]
+Epoch:4 ,avg_cost = 1.503904104232788 ,std_cost = 0.10904058068990707 ,avg_grad = 12434.712890625 ,std_grad = 339.70587158203125
+RBM fitting: 542it [00:03, 156.26it/s]
+Epoch:5 ,avg_cost = 1.5004446506500244 ,std_cost = 0.1095571219921112 ,avg_grad = 12426.0537109375 ,std_grad = 335.7650451660156
+RBM fitting: 542it [00:03, 165.43it/s]
+Epoch:6 ,avg_cost = 1.49971604347229 ,std_cost = 0.11201950907707214 ,avg_grad = 12450.83203125 ,std_grad = 333.3448181152344
+RBM fitting: 542it [00:03, 153.26it/s]
+Epoch:7 ,avg_cost = 1.4955614805221558 ,std_cost = 0.11108849197626114 ,avg_grad = 12432.8916015625 ,std_grad = 337.06805419921875
+RBM fitting: 542it [00:03, 162.94it/s]
+Epoch:8 ,avg_cost = 1.4963217973709106 ,std_cost = 0.11039412766695023 ,avg_grad = 12448.267578125 ,std_grad = 331.9474792480469
+RBM fitting: 542it [00:03, 152.01it/s]
+Epoch:9 ,avg_cost = 1.4953546524047852 ,std_cost = 0.11060614883899689 ,avg_grad = 12417.3896484375 ,std_grad = 334.9717712402344
+RBM fitting: 542it [00:03, 157.49it/s]
+Epoch:10 ,avg_cost = 1.493438959121704 ,std_cost = 0.11025793850421906 ,avg_grad = 12419.5302734375 ,std_grad = 333.0411682128906
+RBM fitting: 542it [00:03, 158.37it/s]
+Epoch:11 ,avg_cost = 1.4932185411453247 ,std_cost = 0.10968989133834839 ,avg_grad = 12450.685546875 ,std_grad = 336.5144958496094
+RBM fitting: 542it [00:03, 156.13it/s]
+Epoch:12 ,avg_cost = 1.4919755458831787 ,std_cost = 0.11186543107032776 ,avg_grad = 12428.7783203125 ,std_grad = 327.1891784667969
+RBM fitting: 542it [00:03, 166.04it/s]
+Epoch:13 ,avg_cost = 1.4899623394012451 ,std_cost = 0.11049576848745346 ,avg_grad = 12445.322265625 ,std_grad = 320.8017883300781
+RBM fitting: 542it [00:03, 148.80it/s]
+Epoch:14 ,avg_cost = 1.4916133880615234 ,std_cost = 0.10923068225383759 ,avg_grad = 12465.39453125 ,std_grad = 330.5213317871094
+RBM fitting: 542it [00:03, 158.69it/s]
+Epoch:15 ,avg_cost = 1.489767074584961 ,std_cost = 0.10981616377830505 ,avg_grad = 12450.5185546875 ,std_grad = 322.1463928222656
+RBM fitting: 542it [00:03, 164.88it/s]
+Epoch:16 ,avg_cost = 1.4892404079437256 ,std_cost = 0.11042693257331848 ,avg_grad = 12453.4033203125 ,std_grad = 343.6286315917969
+RBM fitting: 542it [00:03, 156.54it/s]
+Epoch:17 ,avg_cost = 1.4913890361785889 ,std_cost = 0.1101737916469574 ,avg_grad = 12457.2109375 ,std_grad = 334.684814453125
+RBM fitting: 542it [00:03, 165.28it/s]
+Epoch:18 ,avg_cost = 1.4894945621490479 ,std_cost = 0.11094333976507187 ,avg_grad = 12452.591796875 ,std_grad = 329.4693603515625
+RBM fitting: 542it [00:03, 148.51it/s]
+Epoch:19 ,avg_cost = 1.4895825386047363 ,std_cost = 0.11041219532489777 ,avg_grad = 12458.244140625 ,std_grad = 324.2610778808594
+RBM fitting: 542it [00:03, 168.67it/s]
+Epoch:20 ,avg_cost = 1.488356113433838 ,std_cost = 0.11092869937419891 ,avg_grad = 12474.0263671875 ,std_grad = 331.5500183105469
+RBM fitting: 542it [00:03, 151.04it/s]
+Epoch:21 ,avg_cost = 1.4911073446273804 ,std_cost = 0.11175425350666046 ,avg_grad = 12468.638671875 ,std_grad = 322.4725036621094
+RBM fitting: 542it [00:03, 158.55it/s]
+Epoch:22 ,avg_cost = 1.4893754720687866 ,std_cost = 0.11028198152780533 ,avg_grad = 12464.73828125 ,std_grad = 332.7742614746094
+RBM fitting: 542it [00:03, 167.53it/s]
+Epoch:23 ,avg_cost = 1.4879494905471802 ,std_cost = 0.11002757400274277 ,avg_grad = 12469.474609375 ,std_grad = 331.95733642578125
+RBM fitting: 542it [00:03, 152.65it/s]
+Epoch:24 ,avg_cost = 1.4881362915039062 ,std_cost = 0.11051128059625626 ,avg_grad = 12476.7392578125 ,std_grad = 332.7502746582031
+RBM fitting: 542it [00:03, 167.73it/s]
+Epoch:25 ,avg_cost = 1.4888579845428467 ,std_cost = 0.10886292904615402 ,avg_grad = 12475.533203125 ,std_grad = 335.1745300292969
+RBM fitting: 542it [00:03, 146.07it/s]
+Epoch:26 ,avg_cost = 1.4884312152862549 ,std_cost = 0.11087073385715485 ,avg_grad = 12468.6962890625 ,std_grad = 333.2157287597656
+RBM fitting: 542it [00:03, 157.81it/s]
+Epoch:27 ,avg_cost = 1.487094759941101 ,std_cost = 0.10820966213941574 ,avg_grad = 12490.841796875 ,std_grad = 339.2207336425781
+RBM fitting: 542it [00:03, 161.68it/s]
+Epoch:28 ,avg_cost = 1.487809658050537 ,std_cost = 0.1111869141459465 ,avg_grad = 12478.029296875 ,std_grad = 332.9452819824219
+RBM fitting: 542it [00:03, 149.66it/s]
+Epoch:29 ,avg_cost = 1.4864486455917358 ,std_cost = 0.11046440899372101 ,avg_grad = 12472.4130859375 ,std_grad = 340.17828369140625
+RBM fitting: 542it [00:03, 169.89it/s]
+Epoch:30 ,avg_cost = 1.4884577989578247 ,std_cost = 0.1085018739104271 ,avg_grad = 12477.8779296875 ,std_grad = 310.773681640625
+The original number: 1
+The reconstructed image
+-----------------------35------------
+--------------------
+Training the 1 st rbm layer
+RBM fitting: 542it [00:08, 65.95it/s]
+Epoch:1 ,avg_cost = 0.4275856912136078 ,std_cost = 0.038782089948654175 ,avg_grad = 10609.404296875 ,std_grad = 527.9834594726562
+RBM fitting: 542it [00:07, 70.90it/s]
+Epoch:2 ,avg_cost = 0.4190807044506073 ,std_cost = 0.036478959023952484 ,avg_grad = 10476.4853515625 ,std_grad = 507.7320861816406
+RBM fitting: 542it [00:07, 69.71it/s]
+Epoch:3 ,avg_cost = 0.4147565960884094 ,std_cost = 0.03720348700881004 ,avg_grad = 10470.107421875 ,std_grad = 495.8326721191406
+RBM fitting: 542it [00:08, 66.58it/s]
+Epoch:4 ,avg_cost = 0.4114026427268982 ,std_cost = 0.03570208698511124 ,avg_grad = 10435.9296875 ,std_grad = 520.4251098632812
+RBM fitting: 542it [00:07, 71.42it/s]
+Epoch:5 ,avg_cost = 0.4103897511959076 ,std_cost = 0.03581343963742256 ,avg_grad = 10437.2724609375 ,std_grad = 525.43212890625
+RBM fitting: 542it [00:07, 71.08it/s]
+Epoch:6 ,avg_cost = 0.40819844603538513 ,std_cost = 0.035584259778261185 ,avg_grad = 10439.65625 ,std_grad = 502.473388671875
+RBM fitting: 542it [00:08, 64.50it/s]
+Epoch:7 ,avg_cost = 0.4085860848426819 ,std_cost = 0.03572241961956024 ,avg_grad = 10441.7802734375 ,std_grad = 517.6465454101562
+RBM fitting: 542it [00:07, 71.63it/s]
+Epoch:8 ,avg_cost = 0.408188134431839 ,std_cost = 0.03671029955148697 ,avg_grad = 10455.4091796875 ,std_grad = 524.4027709960938
+RBM fitting: 542it [00:07, 71.11it/s]
+Epoch:9 ,avg_cost = 0.40711039304733276 ,std_cost = 0.03574969619512558 ,avg_grad = 10438.4990234375 ,std_grad = 520.3560791015625
+RBM fitting: 542it [00:08, 66.50it/s]
+Epoch:10 ,avg_cost = 0.40552470088005066 ,std_cost = 0.03519587591290474 ,avg_grad = 10434.0615234375 ,std_grad = 515.6116333007812
+RBM fitting: 542it [00:07, 68.79it/s]
+Epoch:11 ,avg_cost = 0.4060628414154053 ,std_cost = 0.03511853516101837 ,avg_grad = 10427.54296875 ,std_grad = 511.3205871582031
+RBM fitting: 542it [00:07, 70.61it/s]
+Epoch:12 ,avg_cost = 0.4068053662776947 ,std_cost = 0.036697860807180405 ,avg_grad = 10449.6669921875 ,std_grad = 527.641357421875
+RBM fitting: 542it [00:08, 67.29it/s]
+Epoch:13 ,avg_cost = 0.405693382024765 ,std_cost = 0.035219956189394 ,avg_grad = 10438.6142578125 ,std_grad = 525.6725463867188
+RBM fitting: 542it [00:07, 71.89it/s]
+Epoch:14 ,avg_cost = 0.4040507376194 ,std_cost = 0.03627540171146393 ,avg_grad = 10432.78515625 ,std_grad = 528.2247314453125
+RBM fitting: 542it [00:07, 68.45it/s]
+Epoch:15 ,avg_cost = 0.40543463826179504 ,std_cost = 0.03499671444296837 ,avg_grad = 10453.646484375 ,std_grad = 506.1292419433594
+RBM fitting: 542it [00:07, 68.46it/s]
+Epoch:16 ,avg_cost = 0.4043540358543396 ,std_cost = 0.035502322018146515 ,avg_grad = 10442.6767578125 ,std_grad = 513.4149780273438
+RBM fitting: 542it [00:07, 72.44it/s]
+Epoch:17 ,avg_cost = 0.4042900800704956 ,std_cost = 0.03463534265756607 ,avg_grad = 10454.27734375 ,std_grad = 513.5657348632812
+RBM fitting: 542it [00:07, 69.80it/s]
+Epoch:18 ,avg_cost = 0.4041806161403656 ,std_cost = 0.03548632934689522 ,avg_grad = 10445.751953125 ,std_grad = 524.8994140625
+RBM fitting: 542it [00:07, 68.72it/s]
+Epoch:19 ,avg_cost = 0.4031507074832916 ,std_cost = 0.03571273386478424 ,avg_grad = 10439.515625 ,std_grad = 513.982177734375
+RBM fitting: 542it [00:07, 71.68it/s]
+Epoch:20 ,avg_cost = 0.40381479263305664 ,std_cost = 0.03438592702150345 ,avg_grad = 10436.935546875 ,std_grad = 518.1204833984375
+RBM fitting: 542it [00:07, 70.77it/s]
+Epoch:21 ,avg_cost = 0.40409520268440247 ,std_cost = 0.03504611924290657 ,avg_grad = 10447.3740234375 ,std_grad = 515.173583984375
+RBM fitting: 542it [00:07, 70.50it/s]
+Epoch:22 ,avg_cost = 0.4028427004814148 ,std_cost = 0.03464188426733017 ,avg_grad = 10448.271484375 ,std_grad = 509.52838134765625
+RBM fitting: 542it [00:07, 68.58it/s]
+Epoch:23 ,avg_cost = 0.4026665687561035 ,std_cost = 0.03458975628018379 ,avg_grad = 10444.30859375 ,std_grad = 527.9534912109375
+RBM fitting: 542it [00:07, 70.18it/s]
+Epoch:24 ,avg_cost = 0.40300485491752625 ,std_cost = 0.03588157892227173 ,avg_grad = 10441.2392578125 ,std_grad = 526.4159545898438
+RBM fitting: 542it [00:07, 71.92it/s]
+Epoch:25 ,avg_cost = 0.4020838141441345 ,std_cost = 0.03609432652592659 ,avg_grad = 10432.0419921875 ,std_grad = 530.5756225585938
+RBM fitting: 542it [00:07, 69.54it/s]
+Epoch:26 ,avg_cost = 0.4013415277004242 ,std_cost = 0.03622236102819443 ,avg_grad = 10430.7802734375 ,std_grad = 523.0167846679688
+RBM fitting: 542it [00:07, 71.17it/s]
+Epoch:27 ,avg_cost = 0.4017586410045624 ,std_cost = 0.035360343754291534 ,avg_grad = 10433.341796875 ,std_grad = 525.6815795898438
+RBM fitting: 542it [00:07, 71.31it/s]
+Epoch:28 ,avg_cost = 0.4022354185581207 ,std_cost = 0.03525858372449875 ,avg_grad = 10440.9072265625 ,std_grad = 527.3995971679688
+RBM fitting: 542it [00:09, 54.24it/s]
+Epoch:29 ,avg_cost = 0.40185919404029846 ,std_cost = 0.03499043732881546 ,avg_grad = 10440.4677734375 ,std_grad = 504.08978271484375
+RBM fitting: 542it [00:11, 48.69it/s]
+Epoch:30 ,avg_cost = 0.40280380845069885 ,std_cost = 0.03685351088643074 ,avg_grad = 10448.935546875 ,std_grad = 535.9595336914062
+RBM fitting: 542it [00:09, 59.60it/s]
+Epoch:31 ,avg_cost = 0.40072014927864075 ,std_cost = 0.03443426266312599 ,avg_grad = 10438.5947265625 ,std_grad = 517.1779174804688
+RBM fitting: 542it [00:08, 66.93it/s]
+Epoch:32 ,avg_cost = 0.40148526430130005 ,std_cost = 0.03524729609489441 ,avg_grad = 10443.9248046875 ,std_grad = 515.519775390625
+RBM fitting: 542it [00:07, 70.25it/s]
+Epoch:33 ,avg_cost = 0.40224096179008484 ,std_cost = 0.03545183688402176 ,avg_grad = 10453.103515625 ,std_grad = 513.1326904296875
+RBM fitting: 542it [00:07, 72.14it/s]
+Epoch:34 ,avg_cost = 0.4019652307033539 ,std_cost = 0.03528483584523201 ,avg_grad = 10431.841796875 ,std_grad = 519.6651000976562
+RBM fitting: 542it [00:08, 66.81it/s]
+Epoch:35 ,avg_cost = 0.4012047350406647 ,std_cost = 0.035036154091358185 ,avg_grad = 10438.796875 ,std_grad = 524.6253051757812
+--------------------
+Training the 2 st rbm layer
+RBM fitting: 542it [00:03, 151.59it/s]
+Epoch:1 ,avg_cost = 1.5604455471038818 ,std_cost = 0.1127845048904419 ,avg_grad = 12879.7275390625 ,std_grad = 357.7201843261719
+RBM fitting: 542it [00:03, 142.87it/s]
+Epoch:2 ,avg_cost = 1.5328198671340942 ,std_cost = 0.11308741569519043 ,avg_grad = 12740.6318359375 ,std_grad = 343.96142578125
+RBM fitting: 542it [00:03, 158.69it/s]
+Epoch:3 ,avg_cost = 1.5246413946151733 ,std_cost = 0.11248984187841415 ,avg_grad = 12739.6650390625 ,std_grad = 356.04681396484375
+RBM fitting: 542it [00:03, 152.70it/s]
+Epoch:4 ,avg_cost = 1.5206853151321411 ,std_cost = 0.11072072386741638 ,avg_grad = 12714.4677734375 ,std_grad = 340.77935791015625
+RBM fitting: 542it [00:03, 144.39it/s]
+Epoch:5 ,avg_cost = 1.515571117401123 ,std_cost = 0.10910677909851074 ,avg_grad = 12695.6826171875 ,std_grad = 344.9978332519531
+RBM fitting: 542it [00:03, 161.77it/s]
+Epoch:6 ,avg_cost = 1.5144898891448975 ,std_cost = 0.10934610664844513 ,avg_grad = 12724.6123046875 ,std_grad = 353.1609191894531
+RBM fitting: 542it [00:03, 145.01it/s]
+Epoch:7 ,avg_cost = 1.5132452249526978 ,std_cost = 0.10972214490175247 ,avg_grad = 12694.9814453125 ,std_grad = 330.612060546875
+RBM fitting: 542it [00:03, 145.44it/s]
+Epoch:8 ,avg_cost = 1.5100136995315552 ,std_cost = 0.10891100764274597 ,avg_grad = 12692.158203125 ,std_grad = 357.27239990234375
+RBM fitting: 542it [00:03, 153.77it/s]
+Epoch:9 ,avg_cost = 1.5086499452590942 ,std_cost = 0.11012179404497147 ,avg_grad = 12703.3212890625 ,std_grad = 342.1529235839844
+RBM fitting: 542it [00:03, 146.19it/s]
+Epoch:10 ,avg_cost = 1.5103546380996704 ,std_cost = 0.10884416848421097 ,avg_grad = 12714.0146484375 ,std_grad = 331.43328857421875
+RBM fitting: 542it [00:03, 161.00it/s]
+Epoch:11 ,avg_cost = 1.50996994972229 ,std_cost = 0.10934343189001083 ,avg_grad = 12710.2568359375 ,std_grad = 325.9995422363281
+RBM fitting: 542it [00:03, 149.99it/s]
+Epoch:12 ,avg_cost = 1.5085806846618652 ,std_cost = 0.10937193781137466 ,avg_grad = 12708.44921875 ,std_grad = 326.59503173828125
+RBM fitting: 542it [00:03, 152.10it/s]
+Epoch:13 ,avg_cost = 1.5070360898971558 ,std_cost = 0.11009126156568527 ,avg_grad = 12706.6591796875 ,std_grad = 345.0123291015625
+RBM fitting: 542it [00:03, 161.34it/s]
+Epoch:14 ,avg_cost = 1.508802890777588 ,std_cost = 0.11326903104782104 ,avg_grad = 12697.623046875 ,std_grad = 335.0838317871094
+RBM fitting: 542it [00:03, 147.34it/s]
+Epoch:15 ,avg_cost = 1.5078436136245728 ,std_cost = 0.11014603823423386 ,avg_grad = 12714.51171875 ,std_grad = 331.5996398925781
+RBM fitting: 542it [00:03, 159.96it/s]
+Epoch:16 ,avg_cost = 1.5052651166915894 ,std_cost = 0.11001445353031158 ,avg_grad = 12710.0791015625 ,std_grad = 352.7022705078125
+RBM fitting: 542it [00:03, 150.16it/s]
+Epoch:17 ,avg_cost = 1.5068455934524536 ,std_cost = 0.11048655956983566 ,avg_grad = 12720.357421875 ,std_grad = 325.27069091796875
+RBM fitting: 542it [00:03, 153.78it/s]
+Epoch:18 ,avg_cost = 1.5070364475250244 ,std_cost = 0.1092299297451973 ,avg_grad = 12728.904296875 ,std_grad = 340.7508544921875
+RBM fitting: 542it [00:03, 160.15it/s]
+Epoch:19 ,avg_cost = 1.5056755542755127 ,std_cost = 0.11062751710414886 ,avg_grad = 12701.1826171875 ,std_grad = 333.1891784667969
+RBM fitting: 542it [00:03, 145.63it/s]
+Epoch:20 ,avg_cost = 1.5075767040252686 ,std_cost = 0.109831802546978 ,avg_grad = 12713.359375 ,std_grad = 343.92401123046875
+RBM fitting: 542it [00:03, 162.45it/s]
+Epoch:21 ,avg_cost = 1.5052188634872437 ,std_cost = 0.10984999686479568 ,avg_grad = 12712.552734375 ,std_grad = 339.2278137207031
+RBM fitting: 542it [00:03, 144.47it/s]
+Epoch:22 ,avg_cost = 1.5044034719467163 ,std_cost = 0.11029526591300964 ,avg_grad = 12719.2646484375 ,std_grad = 355.53167724609375
+RBM fitting: 542it [00:03, 153.87it/s]
+Epoch:23 ,avg_cost = 1.5054972171783447 ,std_cost = 0.1100810244679451 ,avg_grad = 12716.54296875 ,std_grad = 340.67462158203125
+RBM fitting: 542it [00:03, 161.43it/s]
+Epoch:24 ,avg_cost = 1.5049477815628052 ,std_cost = 0.10907985270023346 ,avg_grad = 12734.1787109375 ,std_grad = 342.6640930175781
+RBM fitting: 542it [00:03, 145.44it/s]
+Epoch:25 ,avg_cost = 1.5066933631896973 ,std_cost = 0.10913942009210587 ,avg_grad = 12740.8115234375 ,std_grad = 346.6606140136719
+RBM fitting: 542it [00:03, 161.19it/s]
+Epoch:26 ,avg_cost = 1.5057793855667114 ,std_cost = 0.10785795003175735 ,avg_grad = 12728.4140625 ,std_grad = 336.8578186035156
+RBM fitting: 542it [00:03, 153.39it/s]
+Epoch:27 ,avg_cost = 1.5048692226409912 ,std_cost = 0.11037988215684891 ,avg_grad = 12717.8759765625 ,std_grad = 353.04949951171875
+RBM fitting: 542it [00:03, 148.80it/s]
+Epoch:28 ,avg_cost = 1.5037306547164917 ,std_cost = 0.11013278365135193 ,avg_grad = 12722.6494140625 ,std_grad = 354.61370849609375
+RBM fitting: 542it [00:03, 159.82it/s]
+Epoch:29 ,avg_cost = 1.5035219192504883 ,std_cost = 0.10964596271514893 ,avg_grad = 12705.9443359375 ,std_grad = 345.1867370605469
+RBM fitting: 542it [00:03, 145.75it/s]
+Epoch:30 ,avg_cost = 1.501420021057129 ,std_cost = 0.1094939261674881 ,avg_grad = 12721.5810546875 ,std_grad = 330.5246887207031
+RBM fitting: 542it [00:03, 158.78it/s]
+Epoch:31 ,avg_cost = 1.5027989149093628 ,std_cost = 0.1111832708120346 ,avg_grad = 12719.5009765625 ,std_grad = 346.0072326660156
+RBM fitting: 542it [00:03, 154.17it/s]
+Epoch:32 ,avg_cost = 1.5050073862075806 ,std_cost = 0.10956497490406036 ,avg_grad = 12709.5693359375 ,std_grad = 357.62908935546875
+RBM fitting: 542it [00:03, 147.18it/s]
+Epoch:33 ,avg_cost = 1.5030360221862793 ,std_cost = 0.11036628484725952 ,avg_grad = 12708.4814453125 ,std_grad = 343.5809326171875
+RBM fitting: 542it [00:03, 161.87it/s]
+Epoch:34 ,avg_cost = 1.504448413848877 ,std_cost = 0.10980574786663055 ,avg_grad = 12717.18359375 ,std_grad = 345.84771728515625
+RBM fitting: 542it [00:04, 133.60it/s]
+Epoch:35 ,avg_cost = 1.5038763284683228 ,std_cost = 0.10795003175735474 ,avg_grad = 12711.560546875 ,std_grad = 333.9710388183594
+The original number: 1
+The reconstructed image
+
+Process finished with exit code 0

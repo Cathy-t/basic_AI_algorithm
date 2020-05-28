@@ -1,0 +1,11 @@
+The number shown is the number: 2
+--------------------
+Training the 1 st rbm layer
+RBM fitting: 6000it [01:37, 61.64it/s]
+Epoch:1 ,avg_cost = 0.5690486431121826 ,std_cost = 0.11039680242538452 ,avg_grad = 11997.16796875 ,std_grad = 1998.16455078125
+--------------------
+Training the 2 st rbm layer
+RBM fitting: 6000it [00:43, 136.57it/s]
+Epoch:1 ,avg_cost = 1.5738818645477295 ,std_cost = 0.16823039948940277 ,avg_grad = 11936.806640625 ,std_grad = 556.5675659179688
+
+Process finished with exit code 0

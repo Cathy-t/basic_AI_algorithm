@@ -1,0 +1,708 @@
+/home/cat/PycharmProjects/pytorch_test/venv/bin/python /media/cat/ea57f047-7456-46a3-a38c-035fd49d0f17/pro/learning/stacked-autoencoder-pytorch-master/run.py
+Saving epoch 0
+Epoch 0 complete	Time: 6.2535s		Loss: 0.1327
+Feature Statistics	Mean: 0.1026		Max: 1.4827		Sparsity: 48.0000%
+Linear classifier performance: 12538/50048 = 25.05%
+================================================================================
+Epoch 1 complete	Time: 6.2216s		Loss: 0.0400
+Feature Statistics	Mean: 0.1559		Max: 2.5565		Sparsity: 47.0000%
+Linear classifier performance: 14077/50048 = 28.13%
+================================================================================
+Epoch 2 complete	Time: 6.4411s		Loss: 0.0441
+Feature Statistics	Mean: 0.1686		Max: 2.6308		Sparsity: 47.0000%
+Linear classifier performance: 14770/50048 = 29.51%
+================================================================================
+Epoch 3 complete	Time: 7.4640s		Loss: 0.0453
+Feature Statistics	Mean: 0.1707		Max: 2.6098		Sparsity: 48.0000%
+Linear classifier performance: 15284/50048 = 30.54%
+================================================================================
+Epoch 4 complete	Time: 8.0782s		Loss: 0.0390
+Feature Statistics	Mean: 0.1670		Max: 2.4947		Sparsity: 48.0000%
+Linear classifier performance: 15554/50048 = 31.08%
+================================================================================
+Epoch 5 complete	Time: 7.6507s		Loss: 0.0426
+Feature Statistics	Mean: 0.1717		Max: 2.6027		Sparsity: 48.0000%
+Linear classifier performance: 15638/50048 = 31.25%
+================================================================================
+/home/cat/PycharmProjects/pytorch_test/venv/bin/python /media/cat/ea57f047-7456-46a3-a38c-035fd49d0f17/pro/learning/stacked-autoencoder-pytorch-master/run.py
+Saving epoch 0
+Epoch 0 complete	Time: 6.2535s		Loss: 0.1327
+Feature Statistics	Mean: 0.1026		Max: 1.4827		Sparsity: 48.0000%
+Linear classifier performance: 12538/50048 = 25.05%
+================================================================================
+Epoch 1 complete	Time: 6.2216s		Loss: 0.0400
+Feature Statistics	Mean: 0.1559		Max: 2.5565		Sparsity: 47.0000%
+Linear classifier performance: 14077/50048 = 28.13%
+================================================================================
+Epoch 2 complete	Time: 6.4411s		Loss: 0.0441
+Feature Statistics	Mean: 0.1686		Max: 2.6308		Sparsity: 47.0000%
+Linear classifier performance: 14770/50048 = 29.51%
+================================================================================
+Epoch 3 complete	Time: 7.4640s		Loss: 0.0453
+Feature Statistics	Mean: 0.1707		Max: 2.6098		Sparsity: 48.0000%
+Linear classifier performance: 15284/50048 = 30.54%
+================================================================================
+Epoch 4 complete	Time: 8.0782s		Loss: 0.0390
+Feature Statistics	Mean: 0.1670		Max: 2.4947		Sparsity: 48.0000%
+Linear classifier performance: 15554/50048 = 31.08%
+================================================================================
+Epoch 5 complete	Time: 7.6507s		Loss: 0.0426
+Feature Statistics	Mean: 0.1717		Max: 2.6027		Sparsity: 48.0000%
+Linear classifier performance: 15638/50048 = 31.25%
+================================================================================
+Epoch 6 complete	Time: 5.7262s		Loss: 0.0409
+Feature Statistics	Mean: 0.1714		Max: 2.6369		Sparsity: 48.0000%
+Linear classifier performance: 15702/50048 = 31.37%
+================================================================================
+Epoch 7 complete	Time: 6.5702s		Loss: 0.0380
+Feature Statistics	Mean: 0.1705		Max: 2.6947		Sparsity: 48.0000%
+Linear classifier performance: 16085/50048 = 32.14%
+================================================================================
+Epoch 8 complete	Time: 8.2783s		Loss: 0.0403
+Feature Statistics	Mean: 0.1704		Max: 2.7049		Sparsity: 48.0000%
+Linear classifier performance: 16183/50048 = 32.33%
+================================================================================
+Epoch 9 complete	Time: 7.6413s		Loss: 0.0375
+Feature Statistics	Mean: 0.1692		Max: 2.8376		Sparsity: 48.0000%
+Linear classifier performance: 16226/50048 = 32.42%
+================================================================================
+Saving epoch 10
+Epoch 10 complete	Time: 5.6240s		Loss: 0.0430
+Feature Statistics	Mean: 0.1786		Max: 2.9572		Sparsity: 48.0000%
+Linear classifier performance: 11471/50048 = 22.92%
+================================================================================
+Epoch 11 complete	Time: 6.4127s		Loss: 0.0386
+Feature Statistics	Mean: 0.1751		Max: 2.7688		Sparsity: 48.0000%
+Linear classifier performance: 13786/50048 = 27.55%
+================================================================================
+Epoch 12 complete	Time: 8.2107s		Loss: 0.0373
+Feature Statistics	Mean: 0.1723		Max: 2.8707		Sparsity: 47.0000%
+Linear classifier performance: 14618/50048 = 29.21%
+================================================================================
+Epoch 13 complete	Time: 8.0302s		Loss: 0.0395
+Feature Statistics	Mean: 0.1763		Max: 2.7552		Sparsity: 47.0000%
+Linear classifier performance: 14830/50048 = 29.63%
+================================================================================
+Epoch 14 complete	Time: 8.0942s		Loss: 0.0371
+Feature Statistics	Mean: 0.1768		Max: 2.7488		Sparsity: 47.0000%
+Linear classifier performance: 15454/50048 = 30.88%
+================================================================================
+Epoch 15 complete	Time: 8.0739s		Loss: 0.0329
+Feature Statistics	Mean: 0.1686		Max: 2.8196		Sparsity: 47.0000%
+Linear classifier performance: 15801/50048 = 31.57%
+================================================================================
+Epoch 16 complete	Time: 7.5486s		Loss: 0.0316
+Feature Statistics	Mean: 0.1683		Max: 2.7547		Sparsity: 47.0000%
+Linear classifier performance: 15829/50048 = 31.63%
+================================================================================
+Epoch 17 complete	Time: 5.5523s		Loss: 0.0345
+Feature Statistics	Mean: 0.1787		Max: 2.8949		Sparsity: 47.0000%
+Linear classifier performance: 16170/50048 = 32.31%
+================================================================================
+Epoch 18 complete	Time: 6.4176s		Loss: 0.0325
+Feature Statistics	Mean: 0.1790		Max: 2.6763		Sparsity: 46.0000%
+Linear classifier performance: 16136/50048 = 32.24%
+================================================================================
+Epoch 19 complete	Time: 8.0664s		Loss: 0.0339
+Feature Statistics	Mean: 0.1802		Max: 2.7552		Sparsity: 46.0000%
+Linear classifier performance: 16369/50048 = 32.71%
+================================================================================
+Saving epoch 20
+Epoch 20 complete	Time: 8.0324s		Loss: 0.0289
+Feature Statistics	Mean: 0.1693		Max: 2.6734		Sparsity: 46.0000%
+Linear classifier performance: 11909/50048 = 23.80%
+================================================================================
+Epoch 21 complete	Time: 8.0699s		Loss: 0.0286
+Feature Statistics	Mean: 0.1710		Max: 2.8807		Sparsity: 46.0000%
+Linear classifier performance: 14091/50048 = 28.15%
+================================================================================
+Epoch 22 complete	Time: 8.1752s		Loss: 0.0313
+Feature Statistics	Mean: 0.1733		Max: 2.8241		Sparsity: 46.0000%
+Linear classifier performance: 14821/50048 = 29.61%
+================================================================================
+Epoch 23 complete	Time: 8.1157s		Loss: 0.0349
+Feature Statistics	Mean: 0.1837		Max: 2.8380		Sparsity: 45.0000%
+Linear classifier performance: 15517/50048 = 31.00%
+================================================================================
+Epoch 24 complete	Time: 8.0602s		Loss: 0.0304
+Feature Statistics	Mean: 0.1755		Max: 2.7891		Sparsity: 45.0000%
+Linear classifier performance: 15675/50048 = 31.32%
+================================================================================
+Epoch 25 complete	Time: 7.5488s		Loss: 0.0343
+Feature Statistics	Mean: 0.1806		Max: 2.6127		Sparsity: 45.0000%
+Linear classifier performance: 15767/50048 = 31.50%
+================================================================================
+Epoch 26 complete	Time: 5.5252s		Loss: 0.0285
+Feature Statistics	Mean: 0.1746		Max: 2.7042		Sparsity: 45.0000%
+Linear classifier performance: 16157/50048 = 32.28%
+================================================================================
+Epoch 27 complete	Time: 6.4823s		Loss: 0.0316
+Feature Statistics	Mean: 0.1821		Max: 2.7727		Sparsity: 45.0000%
+Linear classifier performance: 16065/50048 = 32.10%
+================================================================================
+Epoch 28 complete	Time: 8.0965s		Loss: 0.0312
+Feature Statistics	Mean: 0.1846		Max: 2.7136		Sparsity: 45.0000%
+Linear classifier performance: 16430/50048 = 32.83%
+================================================================================
+Epoch 29 complete	Time: 8.0856s		Loss: 0.0303
+Feature Statistics	Mean: 0.1808		Max: 2.8270		Sparsity: 45.0000%
+Linear classifier performance: 16429/50048 = 32.83%
+================================================================================
+Saving epoch 30
+Epoch 30 complete	Time: 8.0280s		Loss: 0.0315
+Feature Statistics	Mean: 0.1844		Max: 2.8515		Sparsity: 45.0000%
+Linear classifier performance: 12364/50048 = 24.70%
+================================================================================
+Epoch 31 complete	Time: 7.9812s		Loss: 0.0282
+Feature Statistics	Mean: 0.1734		Max: 2.9556		Sparsity: 45.0000%
+Linear classifier performance: 14360/50048 = 28.69%
+================================================================================
+Epoch 32 complete	Time: 8.0394s		Loss: 0.0328
+Feature Statistics	Mean: 0.1906		Max: 2.8068		Sparsity: 44.0000%
+Linear classifier performance: 14889/50048 = 29.75%
+================================================================================
+Epoch 33 complete	Time: 8.0956s		Loss: 0.0305
+Feature Statistics	Mean: 0.1861		Max: 2.9373		Sparsity: 44.0000%
+Linear classifier performance: 15632/50048 = 31.23%
+================================================================================
+Epoch 34 complete	Time: 8.0818s		Loss: 0.0297
+Feature Statistics	Mean: 0.1904		Max: 2.8807		Sparsity: 44.0000%
+Linear classifier performance: 15810/50048 = 31.59%
+================================================================================
+Epoch 35 complete	Time: 8.0391s		Loss: 0.0292
+Feature Statistics	Mean: 0.1892		Max: 2.9167		Sparsity: 44.0000%
+Linear classifier performance: 16139/50048 = 32.25%
+================================================================================
+Epoch 36 complete	Time: 7.4455s		Loss: 0.0278
+Feature Statistics	Mean: 0.1891		Max: 2.7437		Sparsity: 44.0000%
+Linear classifier performance: 16079/50048 = 32.13%
+================================================================================
+Epoch 37 complete	Time: 5.5427s		Loss: 0.0273
+Feature Statistics	Mean: 0.1834		Max: 2.9727		Sparsity: 44.0000%
+Linear classifier performance: 16481/50048 = 32.93%
+================================================================================
+Epoch 38 complete	Time: 6.5746s		Loss: 0.0283
+Feature Statistics	Mean: 0.1909		Max: 2.8809		Sparsity: 44.0000%
+Linear classifier performance: 16741/50048 = 33.45%
+================================================================================
+Epoch 39 complete	Time: 8.0213s		Loss: 0.0293
+Feature Statistics	Mean: 0.1971		Max: 3.0742		Sparsity: 44.0000%
+Linear classifier performance: 16624/50048 = 33.22%
+================================================================================
+Saving epoch 40
+Epoch 40 complete	Time: 7.9185s		Loss: 0.0294
+Feature Statistics	Mean: 0.2052		Max: 3.0542		Sparsity: 44.0000%
+Linear classifier performance: 12730/50048 = 25.44%
+================================================================================
+Epoch 41 complete	Time: 8.0625s		Loss: 0.0268
+Feature Statistics	Mean: 0.1910		Max: 2.8726		Sparsity: 44.0000%
+Linear classifier performance: 14732/50048 = 29.44%
+================================================================================
+Epoch 42 complete	Time: 8.1069s		Loss: 0.0279
+Feature Statistics	Mean: 0.1986		Max: 3.0899		Sparsity: 44.0000%
+Linear classifier performance: 15488/50048 = 30.95%
+================================================================================
+Epoch 43 complete	Time: 8.0793s		Loss: 0.0278
+Feature Statistics	Mean: 0.1963		Max: 2.8561		Sparsity: 44.0000%
+Linear classifier performance: 15803/50048 = 31.58%
+================================================================================
+Epoch 44 complete	Time: 8.0493s		Loss: 0.0293
+Feature Statistics	Mean: 0.2012		Max: 2.8851		Sparsity: 44.0000%
+Linear classifier performance: 15869/50048 = 31.71%
+================================================================================
+Epoch 45 complete	Time: 7.9579s		Loss: 0.0282
+Feature Statistics	Mean: 0.1925		Max: 2.8653		Sparsity: 44.0000%
+Linear classifier performance: 16051/50048 = 32.07%
+================================================================================
+Epoch 46 complete	Time: 8.0135s		Loss: 0.0289
+Feature Statistics	Mean: 0.2021		Max: 2.8382		Sparsity: 44.0000%
+Linear classifier performance: 16566/50048 = 33.10%
+================================================================================
+Epoch 47 complete	Time: 8.0517s		Loss: 0.0284
+Feature Statistics	Mean: 0.1967		Max: 2.9641		Sparsity: 44.0000%
+Linear classifier performance: 16727/50048 = 33.42%
+================================================================================
+Epoch 48 complete	Time: 8.1110s		Loss: 0.0290
+Feature Statistics	Mean: 0.2057		Max: 2.8416		Sparsity: 44.0000%
+Linear classifier performance: 16875/50048 = 33.72%
+================================================================================
+Epoch 49 complete	Time: 7.9954s		Loss: 0.0281
+Feature Statistics	Mean: 0.1956		Max: 2.8313		Sparsity: 44.0000%
+Linear classifier performance: 16979/50048 = 33.93%
+================================================================================
+Saving epoch 50
+Epoch 50 complete	Time: 8.1853s		Loss: 0.0252
+Feature Statistics	Mean: 0.1944		Max: 2.8362		Sparsity: 44.0000%
+Linear classifier performance: 13002/50048 = 25.98%
+================================================================================
+Epoch 51 complete	Time: 7.9319s		Loss: 0.0265
+Feature Statistics	Mean: 0.1900		Max: 2.9573		Sparsity: 44.0000%
+Linear classifier performance: 15093/50048 = 30.16%
+================================================================================
+Epoch 52 complete	Time: 8.0756s		Loss: 0.0284
+Feature Statistics	Mean: 0.2026		Max: 3.0045		Sparsity: 44.0000%
+Linear classifier performance: 15729/50048 = 31.43%
+================================================================================
+Epoch 53 complete	Time: 8.0588s		Loss: 0.0265
+Feature Statistics	Mean: 0.2013		Max: 2.9181		Sparsity: 44.0000%
+Linear classifier performance: 15878/50048 = 31.73%
+================================================================================
+Epoch 54 complete	Time: 8.1710s		Loss: 0.0282
+Feature Statistics	Mean: 0.2055		Max: 2.8316		Sparsity: 44.0000%
+Linear classifier performance: 16247/50048 = 32.46%
+================================================================================
+Epoch 55 complete	Time: 8.0555s		Loss: 0.0279
+Feature Statistics	Mean: 0.1976		Max: 2.8896		Sparsity: 44.0000%
+Linear classifier performance: 16652/50048 = 33.27%
+================================================================================
+Epoch 56 complete	Time: 8.1450s		Loss: 0.0284
+Feature Statistics	Mean: 0.1986		Max: 2.8940		Sparsity: 44.0000%
+Linear classifier performance: 16794/50048 = 33.56%
+================================================================================
+Epoch 57 complete	Time: 8.0941s		Loss: 0.0289
+Feature Statistics	Mean: 0.2087		Max: 3.0895		Sparsity: 44.0000%
+Linear classifier performance: 16944/50048 = 33.86%
+================================================================================
+Epoch 58 complete	Time: 8.0755s		Loss: 0.0251
+Feature Statistics	Mean: 0.2014		Max: 2.8991		Sparsity: 44.0000%
+Linear classifier performance: 17127/50048 = 34.22%
+================================================================================
+Epoch 59 complete	Time: 8.1064s		Loss: 0.0261
+Feature Statistics	Mean: 0.1982		Max: 2.9325		Sparsity: 44.0000%
+Linear classifier performance: 17395/50048 = 34.76%
+================================================================================
+Saving epoch 60
+Epoch 60 complete	Time: 8.1162s		Loss: 0.0260
+Feature Statistics	Mean: 0.2044		Max: 2.7394		Sparsity: 44.0000%
+Linear classifier performance: 13264/50048 = 26.50%
+================================================================================
+Epoch 61 complete	Time: 7.9361s		Loss: 0.0254
+Feature Statistics	Mean: 0.2023		Max: 3.0287		Sparsity: 44.0000%
+Linear classifier performance: 15250/50048 = 30.47%
+================================================================================
+Epoch 62 complete	Time: 7.0234s		Loss: 0.0279
+Feature Statistics	Mean: 0.2094		Max: 2.9482		Sparsity: 44.0000%
+Linear classifier performance: 15776/50048 = 31.52%
+================================================================================
+Epoch 63 complete	Time: 5.5477s		Loss: 0.0245
+Feature Statistics	Mean: 0.1999		Max: 2.7586		Sparsity: 44.0000%
+Linear classifier performance: 16311/50048 = 32.59%
+================================================================================
+Epoch 64 complete	Time: 6.9482s		Loss: 0.0299
+Feature Statistics	Mean: 0.2149		Max: 3.1618		Sparsity: 44.0000%
+Linear classifier performance: 16486/50048 = 32.94%
+================================================================================
+Epoch 65 complete	Time: 8.1468s		Loss: 0.0262
+Feature Statistics	Mean: 0.2047		Max: 2.8189		Sparsity: 44.0000%
+Linear classifier performance: 16599/50048 = 33.17%
+================================================================================
+Epoch 66 complete	Time: 8.0585s		Loss: 0.0275
+Feature Statistics	Mean: 0.2075		Max: 2.8415		Sparsity: 44.0000%
+Linear classifier performance: 16737/50048 = 33.44%
+================================================================================
+Epoch 67 complete	Time: 8.0185s		Loss: 0.0277
+Feature Statistics	Mean: 0.2133		Max: 3.0431		Sparsity: 44.0000%
+Linear classifier performance: 17280/50048 = 34.53%
+================================================================================
+Epoch 68 complete	Time: 7.9816s		Loss: 0.0263
+Feature Statistics	Mean: 0.2214		Max: 3.0480		Sparsity: 44.0000%
+Linear classifier performance: 17280/50048 = 34.53%
+================================================================================
+Epoch 69 complete	Time: 7.9963s		Loss: 0.0232
+Feature Statistics	Mean: 0.2106		Max: 2.9056		Sparsity: 43.0000%
+Linear classifier performance: 17285/50048 = 34.54%
+================================================================================
+Saving epoch 70
+Epoch 70 complete	Time: 8.1023s		Loss: 0.0240
+Feature Statistics	Mean: 0.2069		Max: 3.1191		Sparsity: 43.0000%
+Linear classifier performance: 13403/50048 = 26.78%
+================================================================================
+Epoch 71 complete	Time: 7.9203s		Loss: 0.0265
+Feature Statistics	Mean: 0.2218		Max: 2.9493		Sparsity: 43.0000%
+Linear classifier performance: 15571/50048 = 31.11%
+================================================================================
+Epoch 72 complete	Time: 8.0713s		Loss: 0.0253
+Feature Statistics	Mean: 0.2141		Max: 2.9406		Sparsity: 43.0000%
+Linear classifier performance: 16034/50048 = 32.04%
+================================================================================
+Epoch 73 complete	Time: 8.0554s		Loss: 0.0249
+Feature Statistics	Mean: 0.2084		Max: 3.0207		Sparsity: 43.0000%
+Linear classifier performance: 16553/50048 = 33.07%
+================================================================================
+Epoch 74 complete	Time: 8.0471s		Loss: 0.0234
+Feature Statistics	Mean: 0.2075		Max: 2.8662		Sparsity: 43.0000%
+Linear classifier performance: 16624/50048 = 33.22%
+================================================================================
+Epoch 75 complete	Time: 8.0872s		Loss: 0.0258
+Feature Statistics	Mean: 0.2212		Max: 2.8880		Sparsity: 43.0000%
+Linear classifier performance: 16959/50048 = 33.89%
+================================================================================
+Epoch 76 complete	Time: 8.0080s		Loss: 0.0222
+Feature Statistics	Mean: 0.2147		Max: 2.8884		Sparsity: 43.0000%
+Linear classifier performance: 17130/50048 = 34.23%
+================================================================================
+Epoch 77 complete	Time: 8.0265s		Loss: 0.0265
+Feature Statistics	Mean: 0.2236		Max: 2.9308		Sparsity: 43.0000%
+Linear classifier performance: 17220/50048 = 34.41%
+================================================================================
+Epoch 78 complete	Time: 7.9878s		Loss: 0.0253
+Feature Statistics	Mean: 0.2183		Max: 2.7702		Sparsity: 43.0000%
+Linear classifier performance: 17330/50048 = 34.63%
+================================================================================
+Epoch 79 complete	Time: 7.9797s		Loss: 0.0234
+Feature Statistics	Mean: 0.2107		Max: 2.8838		Sparsity: 43.0000%
+Linear classifier performance: 17580/50048 = 35.13%
+================================================================================
+Saving epoch 80
+Epoch 80 complete	Time: 8.0436s		Loss: 0.0269
+Feature Statistics	Mean: 0.2244		Max: 3.1980		Sparsity: 43.0000%
+Linear classifier performance: 13878/50048 = 27.73%
+================================================================================
+Epoch 81 complete	Time: 7.9893s		Loss: 0.0277
+Feature Statistics	Mean: 0.2314		Max: 2.8356		Sparsity: 43.0000%
+Linear classifier performance: 15669/50048 = 31.31%
+================================================================================
+Epoch 82 complete	Time: 8.0626s		Loss: 0.0218
+Feature Statistics	Mean: 0.2180		Max: 2.7505		Sparsity: 43.0000%
+Linear classifier performance: 16141/50048 = 32.25%
+================================================================================
+Epoch 83 complete	Time: 8.0319s		Loss: 0.0240
+Feature Statistics	Mean: 0.2243		Max: 2.9881		Sparsity: 43.0000%
+Linear classifier performance: 16389/50048 = 32.75%
+================================================================================
+Epoch 84 complete	Time: 8.1188s		Loss: 0.0221
+Feature Statistics	Mean: 0.2039		Max: 2.8238		Sparsity: 43.0000%
+Linear classifier performance: 16780/50048 = 33.53%
+================================================================================
+Epoch 85 complete	Time: 8.1393s		Loss: 0.0250
+Feature Statistics	Mean: 0.2153		Max: 2.9845		Sparsity: 42.0000%
+Linear classifier performance: 17121/50048 = 34.21%
+================================================================================
+Epoch 86 complete	Time: 8.0144s		Loss: 0.0230
+Feature Statistics	Mean: 0.2149		Max: 2.8925		Sparsity: 42.0000%
+Linear classifier performance: 17236/50048 = 34.44%
+================================================================================
+Epoch 87 complete	Time: 8.0788s		Loss: 0.0256
+Feature Statistics	Mean: 0.2255		Max: 2.9028		Sparsity: 42.0000%
+Linear classifier performance: 17498/50048 = 34.96%
+================================================================================
+Epoch 88 complete	Time: 8.0028s		Loss: 0.0247
+Feature Statistics	Mean: 0.2230		Max: 3.0537		Sparsity: 42.0000%
+Linear classifier performance: 17534/50048 = 35.03%
+================================================================================
+Epoch 89 complete	Time: 8.0190s		Loss: 0.0252
+Feature Statistics	Mean: 0.2263		Max: 2.9135		Sparsity: 42.0000%
+Linear classifier performance: 17691/50048 = 35.35%
+================================================================================
+Saving epoch 90
+Epoch 90 complete	Time: 7.9970s		Loss: 0.0243
+Feature Statistics	Mean: 0.2224		Max: 2.8677		Sparsity: 42.0000%
+Linear classifier performance: 13849/50048 = 27.67%
+================================================================================
+Epoch 91 complete	Time: 8.0202s		Loss: 0.0240
+Feature Statistics	Mean: 0.2277		Max: 2.9529		Sparsity: 42.0000%
+Linear classifier performance: 15706/50048 = 31.38%
+================================================================================
+Epoch 92 complete	Time: 7.9735s		Loss: 0.0242
+Feature Statistics	Mean: 0.2225		Max: 2.8725		Sparsity: 42.0000%
+Linear classifier performance: 16305/50048 = 32.58%
+================================================================================
+Epoch 93 complete	Time: 8.1277s		Loss: 0.0225
+Feature Statistics	Mean: 0.2248		Max: 2.8856		Sparsity: 42.0000%
+Linear classifier performance: 16700/50048 = 33.37%
+================================================================================
+Epoch 94 complete	Time: 8.0628s		Loss: 0.0259
+Feature Statistics	Mean: 0.2265		Max: 2.9813		Sparsity: 42.0000%
+Linear classifier performance: 16748/50048 = 33.46%
+================================================================================
+Epoch 95 complete	Time: 8.0458s		Loss: 0.0224
+Feature Statistics	Mean: 0.2248		Max: 2.8570		Sparsity: 42.0000%
+Linear classifier performance: 16934/50048 = 33.84%
+================================================================================
+Epoch 96 complete	Time: 8.1523s		Loss: 0.0240
+Feature Statistics	Mean: 0.2304		Max: 2.9578		Sparsity: 42.0000%
+Linear classifier performance: 17171/50048 = 34.31%
+================================================================================
+Epoch 97 complete	Time: 7.9836s		Loss: 0.0238
+Feature Statistics	Mean: 0.2349		Max: 2.8417		Sparsity: 42.0000%
+Linear classifier performance: 17493/50048 = 34.95%
+================================================================================
+Epoch 98 complete	Time: 8.0300s		Loss: 0.0221
+Feature Statistics	Mean: 0.2268		Max: 2.7972		Sparsity: 42.0000%
+Linear classifier performance: 17490/50048 = 34.95%
+================================================================================
+Epoch 99 complete	Time: 8.1019s		Loss: 0.0248
+Feature Statistics	Mean: 0.2374		Max: 2.9455		Sparsity: 42.0000%
+Linear classifier performance: 17864/50048 = 35.69%
+================================================================================
+Saving epoch 100
+Epoch 100 complete	Time: 8.1056s		Loss: 0.0230
+Feature Statistics	Mean: 0.2424		Max: 2.8838		Sparsity: 42.0000%
+Linear classifier performance: 13974/50048 = 27.92%
+================================================================================
+Epoch 101 complete	Time: 7.9582s		Loss: 0.0231
+Feature Statistics	Mean: 0.2265		Max: 2.8430		Sparsity: 41.0000%
+Linear classifier performance: 15651/50048 = 31.27%
+================================================================================
+Epoch 102 complete	Time: 8.0227s		Loss: 0.0227
+Feature Statistics	Mean: 0.2326		Max: 2.7681		Sparsity: 41.0000%
+Linear classifier performance: 16446/50048 = 32.86%
+================================================================================
+Epoch 103 complete	Time: 8.0413s		Loss: 0.0249
+Feature Statistics	Mean: 0.2398		Max: 2.9951		Sparsity: 41.0000%
+Linear classifier performance: 16691/50048 = 33.35%
+================================================================================
+Epoch 104 complete	Time: 8.0953s		Loss: 0.0220
+Feature Statistics	Mean: 0.2339		Max: 2.9234		Sparsity: 41.0000%
+Linear classifier performance: 16777/50048 = 33.52%
+================================================================================
+Epoch 105 complete	Time: 8.0455s		Loss: 0.0248
+Feature Statistics	Mean: 0.2412		Max: 2.9696		Sparsity: 41.0000%
+Linear classifier performance: 17063/50048 = 34.09%
+================================================================================
+Epoch 106 complete	Time: 8.0157s		Loss: 0.0219
+Feature Statistics	Mean: 0.2347		Max: 2.8014		Sparsity: 41.0000%
+Linear classifier performance: 17360/50048 = 34.69%
+================================================================================
+Epoch 107 complete	Time: 7.9584s		Loss: 0.0220
+Feature Statistics	Mean: 0.2334		Max: 2.8531		Sparsity: 41.0000%
+Linear classifier performance: 17208/50048 = 34.38%
+================================================================================
+Epoch 108 complete	Time: 8.1240s		Loss: 0.0232
+Feature Statistics	Mean: 0.2445		Max: 3.0682		Sparsity: 41.0000%
+Linear classifier performance: 17457/50048 = 34.88%
+================================================================================
+Epoch 109 complete	Time: 8.1022s		Loss: 0.0231
+Feature Statistics	Mean: 0.2493		Max: 3.0061		Sparsity: 41.0000%
+Linear classifier performance: 17665/50048 = 35.30%
+================================================================================
+Saving epoch 110
+Epoch 110 complete	Time: 8.0823s		Loss: 0.0233
+Feature Statistics	Mean: 0.2414		Max: 3.1665		Sparsity: 41.0000%
+Linear classifier performance: 14080/50048 = 28.13%
+================================================================================
+Epoch 111 complete	Time: 7.9525s		Loss: 0.0227
+Feature Statistics	Mean: 0.2353		Max: 3.0363		Sparsity: 41.0000%
+Linear classifier performance: 15786/50048 = 31.54%
+================================================================================
+Epoch 112 complete	Time: 8.0413s		Loss: 0.0218
+Feature Statistics	Mean: 0.2494		Max: 2.9896		Sparsity: 41.0000%
+Linear classifier performance: 16267/50048 = 32.50%
+================================================================================
+Epoch 113 complete	Time: 7.9809s		Loss: 0.0227
+Feature Statistics	Mean: 0.2500		Max: 3.1676		Sparsity: 41.0000%
+Linear classifier performance: 16635/50048 = 33.24%
+================================================================================
+Epoch 114 complete	Time: 8.0332s		Loss: 0.0222
+Feature Statistics	Mean: 0.2412		Max: 3.0055		Sparsity: 41.0000%
+Linear classifier performance: 17066/50048 = 34.10%
+================================================================================
+Epoch 115 complete	Time: 8.0428s		Loss: 0.0213
+Feature Statistics	Mean: 0.2311		Max: 2.9369		Sparsity: 41.0000%
+Linear classifier performance: 16981/50048 = 33.93%
+================================================================================
+Epoch 116 complete	Time: 7.9755s		Loss: 0.0210
+Feature Statistics	Mean: 0.2397		Max: 2.8553		Sparsity: 41.0000%
+Linear classifier performance: 17284/50048 = 34.53%
+================================================================================
+Epoch 117 complete	Time: 8.0472s		Loss: 0.0212
+Feature Statistics	Mean: 0.2388		Max: 3.0094		Sparsity: 41.0000%
+Linear classifier performance: 17312/50048 = 34.59%
+================================================================================
+Epoch 118 complete	Time: 8.0382s		Loss: 0.0230
+Feature Statistics	Mean: 0.2558		Max: 2.9722		Sparsity: 41.0000%
+Linear classifier performance: 17540/50048 = 35.05%
+================================================================================
+Epoch 119 complete	Time: 8.1191s		Loss: 0.0202
+Feature Statistics	Mean: 0.2423		Max: 3.0526		Sparsity: 41.0000%
+Linear classifier performance: 17554/50048 = 35.07%
+================================================================================
+Saving epoch 120
+Epoch 120 complete	Time: 8.0139s		Loss: 0.0216
+Feature Statistics	Mean: 0.2493		Max: 2.9734		Sparsity: 41.0000%
+Linear classifier performance: 14161/50048 = 28.29%
+================================================================================
+Epoch 121 complete	Time: 8.0247s		Loss: 0.0219
+Feature Statistics	Mean: 0.2522		Max: 2.9218		Sparsity: 41.0000%
+Linear classifier performance: 15918/50048 = 31.81%
+================================================================================
+Epoch 122 complete	Time: 8.0619s		Loss: 0.0217
+Feature Statistics	Mean: 0.2508		Max: 3.1076		Sparsity: 41.0000%
+Linear classifier performance: 16460/50048 = 32.89%
+================================================================================
+Epoch 123 complete	Time: 8.1345s		Loss: 0.0207
+Feature Statistics	Mean: 0.2504		Max: 3.1096		Sparsity: 41.0000%
+Linear classifier performance: 16904/50048 = 33.78%
+================================================================================
+Epoch 124 complete	Time: 8.0573s		Loss: 0.0201
+Feature Statistics	Mean: 0.2405		Max: 2.9119		Sparsity: 41.0000%
+Linear classifier performance: 17043/50048 = 34.05%
+================================================================================
+Epoch 125 complete	Time: 8.0968s		Loss: 0.0213
+Feature Statistics	Mean: 0.2486		Max: 2.9959		Sparsity: 41.0000%
+Linear classifier performance: 16982/50048 = 33.93%
+================================================================================
+Epoch 126 complete	Time: 8.1334s		Loss: 0.0222
+Feature Statistics	Mean: 0.2518		Max: 2.9374		Sparsity: 41.0000%
+Linear classifier performance: 17233/50048 = 34.43%
+================================================================================
+Epoch 127 complete	Time: 8.0957s		Loss: 0.0221
+Feature Statistics	Mean: 0.2569		Max: 3.0055		Sparsity: 41.0000%
+Linear classifier performance: 17407/50048 = 34.78%
+================================================================================
+Epoch 128 complete	Time: 8.0191s		Loss: 0.0194
+Feature Statistics	Mean: 0.2395		Max: 2.9226		Sparsity: 41.0000%
+Linear classifier performance: 17536/50048 = 35.04%
+================================================================================
+Epoch 129 complete	Time: 8.0973s		Loss: 0.0214
+Feature Statistics	Mean: 0.2449		Max: 2.8256		Sparsity: 41.0000%
+Linear classifier performance: 17746/50048 = 35.46%
+================================================================================
+Saving epoch 130
+Epoch 130 complete	Time: 7.9857s		Loss: 0.0235
+Feature Statistics	Mean: 0.2599		Max: 3.0478		Sparsity: 41.0000%
+Linear classifier performance: 14105/50048 = 28.18%
+================================================================================
+Epoch 131 complete	Time: 7.9563s		Loss: 0.0226
+Feature Statistics	Mean: 0.2610		Max: 3.0071		Sparsity: 41.0000%
+Linear classifier performance: 15900/50048 = 31.77%
+================================================================================
+Epoch 132 complete	Time: 8.1997s		Loss: 0.0221
+Feature Statistics	Mean: 0.2572		Max: 3.0895		Sparsity: 41.0000%
+Linear classifier performance: 16295/50048 = 32.56%
+================================================================================
+Epoch 133 complete	Time: 8.0269s		Loss: 0.0190
+Feature Statistics	Mean: 0.2475		Max: 3.2720		Sparsity: 41.0000%
+Linear classifier performance: 16434/50048 = 32.84%
+================================================================================
+Epoch 134 complete	Time: 8.0865s		Loss: 0.0228
+Feature Statistics	Mean: 0.2625		Max: 3.0250		Sparsity: 41.0000%
+Linear classifier performance: 17099/50048 = 34.17%
+================================================================================
+Epoch 135 complete	Time: 8.0513s		Loss: 0.0222
+Feature Statistics	Mean: 0.2561		Max: 2.9937		Sparsity: 41.0000%
+Linear classifier performance: 17297/50048 = 34.56%
+================================================================================
+Epoch 136 complete	Time: 8.0015s		Loss: 0.0191
+Feature Statistics	Mean: 0.2418		Max: 2.8981		Sparsity: 41.0000%
+Linear classifier performance: 17354/50048 = 34.67%
+================================================================================
+Epoch 137 complete	Time: 8.1295s		Loss: 0.0214
+Feature Statistics	Mean: 0.2702		Max: 3.1200		Sparsity: 41.0000%
+Linear classifier performance: 17514/50048 = 34.99%
+================================================================================
+Epoch 138 complete	Time: 7.9642s		Loss: 0.0204
+Feature Statistics	Mean: 0.2570		Max: 3.1113		Sparsity: 41.0000%
+Linear classifier performance: 17673/50048 = 35.31%
+================================================================================
+Epoch 139 complete	Time: 8.1451s		Loss: 0.0202
+Feature Statistics	Mean: 0.2487		Max: 2.9915		Sparsity: 41.0000%
+Linear classifier performance: 17753/50048 = 35.47%
+================================================================================
+Saving epoch 140
+Epoch 140 complete	Time: 8.1289s		Loss: 0.0232
+Feature Statistics	Mean: 0.2662		Max: 3.0442		Sparsity: 41.0000%
+Linear classifier performance: 14035/50048 = 28.04%
+================================================================================
+Epoch 141 complete	Time: 7.9826s		Loss: 0.0227
+Feature Statistics	Mean: 0.2630		Max: 3.2398		Sparsity: 41.0000%
+Linear classifier performance: 15684/50048 = 31.34%
+================================================================================
+Epoch 142 complete	Time: 8.0073s		Loss: 0.0214
+Feature Statistics	Mean: 0.2659		Max: 3.0688		Sparsity: 41.0000%
+Linear classifier performance: 16483/50048 = 32.93%
+================================================================================
+Epoch 143 complete	Time: 7.9799s		Loss: 0.0217
+Feature Statistics	Mean: 0.2649		Max: 3.0079		Sparsity: 40.0000%
+Linear classifier performance: 16696/50048 = 33.36%
+================================================================================
+Epoch 144 complete	Time: 8.0049s		Loss: 0.0208
+Feature Statistics	Mean: 0.2549		Max: 3.0961		Sparsity: 40.0000%
+Linear classifier performance: 16943/50048 = 33.85%
+================================================================================
+Epoch 145 complete	Time: 7.9957s		Loss: 0.0190
+Feature Statistics	Mean: 0.2481		Max: 3.1559		Sparsity: 40.0000%
+Linear classifier performance: 17254/50048 = 34.47%
+================================================================================
+Epoch 146 complete	Time: 8.0875s		Loss: 0.0241
+Feature Statistics	Mean: 0.2751		Max: 2.9528		Sparsity: 40.0000%
+Linear classifier performance: 17347/50048 = 34.66%
+================================================================================
+Epoch 147 complete	Time: 8.0737s		Loss: 0.0202
+Feature Statistics	Mean: 0.2545		Max: 3.0638		Sparsity: 40.0000%
+Linear classifier performance: 17369/50048 = 34.70%
+================================================================================
+Epoch 148 complete	Time: 7.9564s		Loss: 0.0208
+Feature Statistics	Mean: 0.2628		Max: 2.9822		Sparsity: 40.0000%
+Linear classifier performance: 17683/50048 = 35.33%
+================================================================================
+Epoch 149 complete	Time: 5.6864s		Loss: 0.0204
+Feature Statistics	Mean: 0.2592		Max: 3.0870		Sparsity: 40.0000%
+Linear classifier performance: 17512/50048 = 34.99%
+================================================================================
+Saving epoch 150
+Epoch 150 complete	Time: 5.9710s		Loss: 0.0210
+Feature Statistics	Mean: 0.2641		Max: 3.0994		Sparsity: 40.0000%
+Linear classifier performance: 13730/50048 = 27.43%
+================================================================================
+Epoch 151 complete	Time: 7.8027s		Loss: 0.0221
+Feature Statistics	Mean: 0.2741		Max: 2.8674		Sparsity: 40.0000%
+Linear classifier performance: 15998/50048 = 31.97%
+================================================================================
+Epoch 152 complete	Time: 8.0348s		Loss: 0.0214
+Feature Statistics	Mean: 0.2633		Max: 2.9891		Sparsity: 40.0000%
+Linear classifier performance: 16294/50048 = 32.56%
+================================================================================
+Epoch 153 complete	Time: 8.0147s		Loss: 0.0226
+Feature Statistics	Mean: 0.2734		Max: 3.1283		Sparsity: 40.0000%
+Linear classifier performance: 16837/50048 = 33.64%
+================================================================================
+Epoch 154 complete	Time: 8.1389s		Loss: 0.0221
+Feature Statistics	Mean: 0.2681		Max: 2.9122		Sparsity: 40.0000%
+Linear classifier performance: 17057/50048 = 34.08%
+================================================================================
+Epoch 155 complete	Time: 7.9342s		Loss: 0.0214
+Feature Statistics	Mean: 0.2657		Max: 3.0686		Sparsity: 40.0000%
+Linear classifier performance: 17190/50048 = 34.35%
+================================================================================
+Epoch 156 complete	Time: 8.1286s		Loss: 0.0206
+Feature Statistics	Mean: 0.2708		Max: 3.0762		Sparsity: 40.0000%
+Linear classifier performance: 17305/50048 = 34.58%
+================================================================================
+Epoch 157 complete	Time: 8.0955s		Loss: 0.0210
+Feature Statistics	Mean: 0.2662		Max: 3.0466		Sparsity: 40.0000%
+Linear classifier performance: 17543/50048 = 35.05%
+================================================================================
+Epoch 158 complete	Time: 8.0080s		Loss: 0.0202
+Feature Statistics	Mean: 0.2645		Max: 2.8993		Sparsity: 40.0000%
+Linear classifier performance: 17475/50048 = 34.92%
+================================================================================
+Epoch 159 complete	Time: 7.9627s		Loss: 0.0226
+Feature Statistics	Mean: 0.2733		Max: 3.0332		Sparsity: 40.0000%
+Linear classifier performance: 17512/50048 = 34.99%
+================================================================================
+Saving epoch 160
+Epoch 160 complete	Time: 8.1014s		Loss: 0.0218
+Feature Statistics	Mean: 0.2705		Max: 3.1295		Sparsity: 40.0000%
+Linear classifier performance: 13757/50048 = 27.49%
+================================================================================
+Epoch 161 complete	Time: 7.9619s		Loss: 0.0214
+Feature Statistics	Mean: 0.2752		Max: 3.1345		Sparsity: 40.0000%
+Linear classifier performance: 16030/50048 = 32.03%
+================================================================================
+Epoch 162 complete	Time: 8.0724s		Loss: 0.0218
+Feature Statistics	Mean: 0.2716		Max: 3.1185		Sparsity: 40.0000%
+Linear classifier performance: 16432/50048 = 32.83%
+================================================================================
+Epoch 163 complete	Time: 8.2114s		Loss: 0.0221
+Feature Statistics	Mean: 0.2735		Max: 3.0614		Sparsity: 40.0000%
+Linear classifier performance: 16712/50048 = 33.39%
+================================================================================
+Epoch 164 complete	Time: 8.0491s		Loss: 0.0210
+Feature Statistics	Mean: 0.2770		Max: 3.1196		Sparsity: 40.0000%
+Linear classifier performance: 16955/50048 = 33.88%
+================================================================================
+Epoch 165 complete	Time: 7.9658s		Loss: 0.0232
+Feature Statistics	Mean: 0.2849		Max: 3.1222		Sparsity: 40.0000%
+Linear classifier performance: 17072/50048 = 34.11%
+================================================================================
