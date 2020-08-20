@@ -32,3 +32,8 @@ Include Supervised learning:Logistic Regression、Multilayer perceptron 、 Deep
  [Restricted_Boltzmann_Machines](https://github.com/Cathy-t/basic_AI_algorithm/tree/master/Unsupervised_learnin/Restricted_Boltzmann_Machines)  | 受限玻尔兹曼机  | [README]
  
  [Deep_Belief_Networks](https://github.com/Cathy-t/basic_AI_algorithm/tree/master/Unsupervised_learnin/Deep_Belief_Networks)  | 深度置信网络  | [README]
+ 
+ ## 你可以直接查看pdf文件，有更详细的算法说明
+ https://github.com/Cathy-t/basic_AI_algorithm/blob/master/git_upload.pdf
+ 
+ ### 小试牛刀，再接再励！
