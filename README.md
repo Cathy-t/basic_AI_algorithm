@@ -1,5 +1,6 @@
 # basic_AI_algorithm
-Include Supervised learning:Logistic Regression、Multilayer perceptron 、 Deep Convolutional Network and Long Short-term Memory.And Unsupervised learning:Auto Encoders、Denoising Autoencoders、Stacked Denoising Auto-Encoders、Restricted Boltzmann Machines、Deep Belief Networks.
+> Supervised learning: Logistic Regression、Multilayer perceptron 、 Deep Convolutional Network and Long Short-term Memory.
+> Unsupervised learning: Auto Encoders、Denoising Autoencoders、Stacked Denoising Auto-Encoders、Restricted Boltzmann Machines、Deep Belief Networks.
 
 ## Dateset
 使用Mnist数据集
