@@ -171,7 +171,7 @@ with torch.no_grad():
     confusion_matrix = torch.zeros((10, 10))
     for images, labels in test_loader:
         outputs = leNet(images)
-        # torch.max的输出：out (tuple, optional) – the result tuple of two output tensors (max, max_indices)
+        # torch.max的输出：out (tuple, optional) – the results tuple of two output tensors (max, max_indices)
         _, predicted = torch.max(outputs.data, 1)
         # print(max.data)
         # print(predicted)

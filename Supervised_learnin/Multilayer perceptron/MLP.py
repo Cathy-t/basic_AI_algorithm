@@ -100,7 +100,7 @@ with torch.no_grad():
     for images, labels in test_loader:
         images = images.reshape(-1, 28*28)
         outputs = MLP_model(images)
-        # torch.max的输出：out (tuple, optional) – the result tuple of two output tensors (max, max_indices)
+        # torch.max的输出：out (tuple, optional) – the results tuple of two output tensors (max, max_indices)
         _, predicted = torch.max(outputs.data, 1)
         # print(max.data)
         # print(predicted)

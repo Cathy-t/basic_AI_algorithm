@@ -54,11 +54,11 @@ class LR(nn.Module):
         return x
 
 
-LR_model = LR(input_size, num_classes)
+LR_model = LR(input_size, num_classes).cuda()
 print(LR_model)
 
 # 定义逻辑回归的损失函数，采用nn.CrossEntropyLoss(),nn.CrossEntropyLoss()内部集成了softmax函数
-criterion = nn.CrossEntropyLoss(reduction='mean')
+criterion = nn.CrossEntropyLoss(reduction='mean').cuda()
 
 # 定义optimizer
 optimizer = torch.optim.SGD(LR_model.parameters(), lr=learning_rate)
@@ -69,14 +69,15 @@ total_step = len(train_loader)
 for epoch in range(num_epochs):
     for i, (images, labels) in enumerate(train_loader):
         # 将图像序列转换至大小为 (batch_size, input_size),应为（100，,784）
-        images = images.reshape(-1, 28 * 28)
+        images = images.reshape(-1, 28 * 28).cuda()
+        labels = labels.cuda()
 
         # forward
-        y_pred = LR_model(images)
+        y_pred = LR_model(images).cuda()
         # print(y_pred.size())
         # print(labels.size())
         # exit()
-        loss = criterion(y_pred, labels)
+        loss = criterion(y_pred, labels).cuda()
         losses.append(loss)
 
         # backward()
@@ -98,7 +99,7 @@ with torch.no_grad():
     for images, labels in test_loader:
         images = images.reshape(-1, 28*28)
         outputs = LR_model(images)
-        # torch.max的输出：out (tuple, optional) – the result tuple of two output tensors (max, max_indices)
+        # torch.max的输出：out (tuple, optional) – the results tuple of two output tensors (max, max_indices)
         _, predicted = torch.max(outputs.data, 1)
         # print(max.data)
         total += labels.size(0)
