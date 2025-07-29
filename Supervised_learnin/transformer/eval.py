@@ -1,17 +1,17 @@
-import sys 
+import sys
 import os
 import argparse
 import time
 import datetime
 import logging
-import numpy as np 
+import numpy as np
 import json
 
 import torch
 import torch.nn as nn
 
 from model import make_model
-from utils import set_logger,read_vocab,write_vocab,build_vocab,Tokenizer,padding_idx
+from utils import set_logger, read_vocab, write_vocab, build_vocab, Tokenizer, padding_idx
 from dataloader import create_split_loaders
 from train import setup
 from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
@@ -19,10 +19,12 @@ from utils import padding_idx, sos_idx, eos_idx, unk_idx, beam_search_decode
 
 cc = SmoothingFunction()
 
+
 class Arguments():
     def __init__(self, config):
         for key in config:
             setattr(self, key, config[key])
+
 
 def main(args):
     model_prefix = '{}_{}'.format(args.model_type, args.train_id)
@@ -35,7 +37,7 @@ def main(args):
         sys.exit('No checkpoint_path found {}'.format(checkpoint_path))
 
     print('Loading model: {}'.format(model_prefix))
-    
+
     # set up vocab txt
     setup(args, clear=False)
     print(args.__dict__)
@@ -43,24 +45,27 @@ def main(args):
     # indicate src and tgt language
     src, tgt = 'en', 'zh'
 
-    maps = {'en':args.TRAIN_VOCAB_EN, 'zh':args.TRAIN_VOCAB_ZH}
+    maps = {'en': args.TRAIN_VOCAB_EN, 'zh': args.TRAIN_VOCAB_ZH}
     vocab_src = read_vocab(maps[src])
     tok_src = Tokenizer(language=src, vocab=vocab_src, encoding_length=args.MAX_INPUT_LENGTH)
     vocab_tgt = read_vocab(maps[tgt])
     tok_tgt = Tokenizer(language=tgt, vocab=vocab_tgt, encoding_length=args.MAX_INPUT_LENGTH)
-    print ('Vocab size src/tgt:{}/{}'.format( len(vocab_src), len(vocab_tgt)) )
+    print('Vocab size src/tgt:{}/{}'.format(len(vocab_src), len(vocab_tgt)))
 
     # Setup the training, validation, and testing dataloaders
-    train_loader, val_loader, test_loader = create_split_loaders(args.DATA_DIR,(tok_src, tok_tgt), args.batch_size, args.MAX_VID_LENGTH, (src, tgt), num_workers=4, pin_memory=True)
-    print ('train/val/test size: {}/{}/{}'.format( len(train_loader), len(val_loader), len(test_loader) ))
+    train_loader, val_loader, test_loader = create_split_loaders(args.DATA_DIR, (tok_src, tok_tgt), args.batch_size,
+                                                                 args.MAX_VID_LENGTH, (src, tgt), num_workers=4,
+                                                                 pin_memory=True)
+    print('train/val/test size: {}/{}/{}'.format(len(train_loader), len(val_loader), len(test_loader)))
 
     ## init model
-    model = make_model(len(vocab_src), len(vocab_tgt), N=args.nb_blocks, d_model=args.d_model, d_ff=args.d_model * 4, h=args.att_h, dropout=args.dropout)
+    model = make_model(len(vocab_src), len(vocab_tgt), N=args.nb_blocks, d_model=args.d_model, d_ff=args.d_model * 4,
+                       h=args.att_h, dropout=args.dropout)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
     ### load best model and eval
-    print ('************ Start eval... ************')
+    print('************ Start eval... ************')
     eval(test_loader, model, cp_file, tok_tgt, nbest=1, result_path=result_path)
 
 
@@ -88,7 +93,7 @@ def eval(test_loader, model, cp_file, tok_tgt, nbest=1, result_path=None):
     with torch.no_grad():
         # Batches
         for cnt, (src, src_mask, sent_id, trg_y, srcrefs, tgtrefs) in enumerate(test_loader, 1):
-            src, src_mask= src.cuda(), src_mask.cuda()
+            src, src_mask = src.cuda(), src_mask.cuda()
             vid = sent_id[0]
             ids.append(vid)
 
@@ -138,5 +143,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     with open(args.config, 'r') as fin:
         import yaml
+
         args = Arguments(yaml.load(fin))
     main(args)

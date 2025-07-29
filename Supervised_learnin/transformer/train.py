@@ -1,19 +1,20 @@
-import sys 
+import sys
 import os
 import argparse
 import time
 import datetime
 import logging
-import numpy as np 
+import numpy as np
 import json
 
 import torch
 import torch.nn as nn
 
 from model import make_model
-from utils import set_logger,read_vocab,write_vocab,build_vocab,Tokenizer,clip_gradient,adjust_learning_rate
+from utils import set_logger, read_vocab, write_vocab, build_vocab, Tokenizer, clip_gradient, adjust_learning_rate
 from dataloader import create_split_loaders
 from nltk.translate.bleu_score import corpus_bleu, sentence_bleu, SmoothingFunction
+
 cc = SmoothingFunction()
 from label_smoothing import *
 from utils import padding_idx, sos_idx, eos_idx, unk_idx, NoamOpt, SimpleLossCompute, beam_search_decode
@@ -23,6 +24,7 @@ from tqdm import tqdm
 # src, tgt = 'en', 'zh'
 # src_input, tgt_input = 'zh', 'en'
 src_input, tgt_input = 'en', 'zh'
+
 
 class Arguments():
     def __init__(self, config):
@@ -41,24 +43,27 @@ def count_paras(encoder, decoder, logging=None):
     nparas_enc = sum(p.numel() for p in encoder.parameters())
     nparas_dec = sum(p.numel() for p in decoder.parameters())
     nparas_sum = nparas_enc + nparas_dec
-    if logging is None: 
-        print ('#paras of my model: enc {}M  dec {}M total {}M'.format(nparas_enc/1e6, nparas_dec/1e6, nparas_sum/1e6))
+    if logging is None:
+        print('#paras of my model: enc {}M  dec {}M total {}M'.format(nparas_enc / 1e6, nparas_dec / 1e6,
+                                                                      nparas_sum / 1e6))
     else:
-        logging.info('#paras of my model: enc {}M  dec {}M total {}M'.format(nparas_enc/1e6, nparas_dec/1e6, nparas_sum/1e6))
+        logging.info('#paras of my model: enc {}M  dec {}M total {}M'.format(nparas_enc / 1e6, nparas_dec / 1e6,
+                                                                             nparas_sum / 1e6))
+
 
 def setup(args, clear=False):
     '''
     Build vocabs from train or train/val set.
     '''
     TRAIN_VOCAB_EN, TRAIN_VOCAB_ZH = args.TRAIN_VOCAB_EN, args.TRAIN_VOCAB_ZH
-    if clear: ## delete previous vocab
+    if clear:  ## delete previous vocab
         for file in [TRAIN_VOCAB_EN, TRAIN_VOCAB_ZH]:
             if os.path.exists(file):
                 os.remove(file)
     # Build English vocabs
     if not os.path.exists(TRAIN_VOCAB_EN):
-        write_vocab(build_vocab(args.DATA_DIR, language='en'),  TRAIN_VOCAB_EN)
-    #build Chinese vocabs
+        write_vocab(build_vocab(args.DATA_DIR, language='en'), TRAIN_VOCAB_EN)
+    # build Chinese vocabs
     if not os.path.exists(TRAIN_VOCAB_ZH):
         write_vocab(build_vocab(args.DATA_DIR, language='zh'), TRAIN_VOCAB_ZH)
 
@@ -69,7 +74,7 @@ def setup(args, clear=False):
 
 def main(args):
     model_prefix = '{}_{}'.format(args.model_type, args.train_id)
-    
+
     log_path = args.LOG_DIR + model_prefix + '/'
     checkpoint_path = args.CHK_DIR + model_prefix + '/'
     result_path = args.RESULT_DIR + model_prefix + '/'
@@ -85,7 +90,7 @@ def main(args):
     set_logger(os.path.join(log_path, 'train.log'))
 
     ## save argparse parameters
-    with open(log_path+'args.yaml', 'w') as f:
+    with open(log_path + 'args.yaml', 'w') as f:
         for k, v in args.__dict__.items():
             f.write('{}: {}\n'.format(k, v))
 
@@ -95,21 +100,24 @@ def main(args):
     setup(args, clear=True)
     print(args.__dict__)
 
-    maps = {'en':args.TRAIN_VOCAB_EN, 'zh':args.TRAIN_VOCAB_ZH}
+    maps = {'en': args.TRAIN_VOCAB_EN, 'zh': args.TRAIN_VOCAB_ZH}
     vocab_src = read_vocab(maps[src_input])
     tok_src = Tokenizer(language=src_input, vocab=vocab_src, encoding_length=args.MAX_INPUT_LENGTH)
     vocab_tgt = read_vocab(maps[tgt_input])
     tok_tgt = Tokenizer(language=tgt_input, vocab=vocab_tgt, encoding_length=args.MAX_INPUT_LENGTH)
-    logging.info('Vocab size src/tgt:{}/{}'.format( len(vocab_src), len(vocab_tgt)) )
+    logging.info('Vocab size src/tgt:{}/{}'.format(len(vocab_src), len(vocab_tgt)))
 
     ## Setup the training, validation, and testing dataloaders
-    train_loader, val_loader, test_loader = create_split_loaders(args.DATA_DIR, (tok_src, tok_tgt), args.batch_size, args.MAX_VID_LENGTH, (src_input, tgt_input), num_workers=4, pin_memory=True)
+    train_loader, val_loader, test_loader = create_split_loaders(args.DATA_DIR, (tok_src, tok_tgt), args.batch_size,
+                                                                 args.MAX_VID_LENGTH, (src_input, tgt_input),
+                                                                 num_workers=4, pin_memory=True)
     logging.info('train/val/test size: {}/{}/{}'.format(len(train_loader), len(val_loader), len(test_loader)))
 
     # vocab = vocab_src + vocab_tgt
 
     ## init model
-    model = make_model(len(vocab_src), len(vocab_tgt), N=args.nb_blocks, d_model=args.d_model, d_ff=args.d_model*4, h=args.att_h, dropout=args.dropout)
+    model = make_model(len(vocab_src), len(vocab_tgt), N=args.nb_blocks, d_model=args.d_model, d_ff=args.d_model * 4,
+                       h=args.att_h, dropout=args.dropout)
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     model.to(device)
 
@@ -140,23 +148,24 @@ def main(args):
             start_time = time.time()
             train_loss = train(train_loader, model, SimpleLossCompute(model.generator, criterion, opt=model_opt), epoch)
 
-            val_loss, sentbleu, corpbleu = validate(val_loader, model, SimpleLossCompute(model.generator, criterion, opt=None), epoch)
+            val_loss, sentbleu, corpbleu = validate(val_loader, model,
+                                                    SimpleLossCompute(model.generator, criterion, opt=None), epoch)
             end_time = time.time()
 
             epoch_time = end_time - start_time
             total_time = end_time - zero_time
 
             logging.info('Total time used: %s Epoch %d time uesd: %s train loss: %.4f val loss: %.4f corpbleu: %.4f' % (
-                    str(datetime.timedelta(seconds=int(total_time))),
-                    epoch, str(datetime.timedelta(seconds=int(epoch_time))), train_loss, val_loss, corpbleu))
+                str(datetime.timedelta(seconds=int(total_time))),
+                epoch, str(datetime.timedelta(seconds=int(epoch_time))), train_loss, val_loss, corpbleu))
 
             if corpbleu > best_val_bleu:
                 best_val_bleu = corpbleu
                 save_checkpoint({'epoch': epoch, 'state_dict': model.state_dict(),
-                                  'optimizer': model_opt.optimizer.state_dict()}, cp_file)
+                                 'optimizer': model_opt.optimizer.state_dict()}, cp_file)
                 best_epoch = epoch
 
-            logging.info("Finished {0} epochs of training".format(epoch+1))
+            logging.info("Finished {0} epochs of training".format(epoch + 1))
 
             total_train_loss.append(train_loss)
             total_val_loss.append(val_loss)
@@ -168,7 +177,7 @@ def main(args):
         logging.info('Best corpus bleu score {:.4f} at epoch {}'.format(best_val_bleu, best_epoch))
 
         ### the best model is the last model saved in our implementation
-        logging.info ('************ Start eval... ************')
+        logging.info('************ Start eval... ************')
         eval(test_loader, model, cp_file, tok_tgt, nbest=1, result_path=result_path)
 
     else:
@@ -186,7 +195,6 @@ def train(train_loader, model, loss_compute, epoch):
     total_loss = 0
     tokens = 0
     for src, src_mask, trg, trg_mask, _, _, _ in tqdm(train_loader, desc="epoch {}/{}".format(epoch + 1, args.epochs)):
-
         src, src_mask, trg, trg_mask = src.cuda(), src_mask.cuda(), trg.cuda(), trg_mask.cuda()
 
         ntokens = (trg[:, 1:] != padding_idx).data.sum()
@@ -227,7 +235,8 @@ def validate(val_loader, model, loss_compute, epoch):
 
             ntokens_query = (src != padding_idx).data.sum()
             ntokens = (trg[:, 1:] != padding_idx).data.sum()
-            loss, scores, pred_lengths = loss_compute(out, trg[:, 1:], ntokens, None, src, ntokens_query, eval=True, max_len=args.maxlen)
+            loss, scores, pred_lengths = loss_compute(out, trg[:, 1:], ntokens, None, src, ntokens_query, eval=True,
+                                                      max_len=args.maxlen)
 
             scores_copy = scores.clone()
 
@@ -239,12 +248,12 @@ def validate(val_loader, model, loss_compute, epoch):
                 temp_preds.append(preds[j][1:pred_lengths[j]])  # remove pads and idx-0
 
             preds = temp_preds
-            hypotheses.extend(preds) # preds= [1,2,3]
+            hypotheses.extend(preds)  # preds= [1,2,3]
 
-            tgtrefs = [ list(map(int, i.split())) for i in tgtrefs] # tgtrefs = [[1,2,3], [2,4,3], [1,4,5,]]
-            
+            tgtrefs = [list(map(int, i.split())) for i in tgtrefs]  # tgtrefs = [[1,2,3], [2,4,3], [1,4,5,]]
+
             for r in tgtrefs:
-                references.append([r]) 
+                references.append([r])
 
             assert len(references) == len(hypotheses)
 
@@ -287,7 +296,7 @@ def eval(test_loader, model, cp_file, tok_tgt, nbest=1, result_path=None):
     with torch.no_grad():
         # Batches
         for cnt, (src, src_mask, sent_id, trg_y, srcrefs, tgtrefs) in enumerate(test_loader, 1):
-            src, src_mask= src.cuda(), src_mask.cuda()
+            src, src_mask = src.cuda(), src_mask.cuda()
             vid = sent_id[0]
             ids.append(vid)
 
@@ -342,5 +351,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     with open(args.config, 'r') as fin:
         import yaml
+
         args = Arguments(yaml.load(fin))
     main(args)
